@@ -1,0 +1,7810 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', 'sans-serif','Source Sans Pro';
+}
+
+.media-grid .media-list-item.no-border .thumbnail {
+  pointer-events: none !important;
+  cursor: pointer !important;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.text-center {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+.single-page h3 {
+  font-family: 'Montserrat';
+font-size: 36px;
+font-weight: 800;
+
+}
+.single-page p {
+font-family: 'Source Sans Pro';
+font-size: 16px;
+font-weight: 400;
+
+}
+.main-banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 752px;
+  max-height: 100%;
+  position: relative;
+  background-attachment: fixed;
+  background-color: #ccc;
+}
+.bg_free {
+  color: #11376C !important;
+
+}
+.bg_archi {
+  color: #11376C !important;
+  font-size: 80px !important;
+  font-weight:800 !important;
+}
+.text_margin {
+  margin-left: 30px;
+}
+.bg_section {
+  color: #09090a !important;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 70px;
+  text-align: left;
+
+}
+.hero_web {
+  font-size: 16px !important;
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+  color: #222 !important;
+  text-align: left;
+
+}
+.hero_margin {
+  margin-left: 10px;
+}
+.border_hero {
+  border-radius: 25px 25px;
+  width: 215px;
+padding: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Source Sans Pro';
+  padding-left: 40px;
+}
+.bord_hero {
+  border-radius: 25px 25px;
+  width: 215px;
+padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Source Sans Pro';
+  background-color: #11376C;
+  color: #fff;
+ 
+}
+.margin-remove {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* box-shadow: 0 4px 30px rgb(0 0 0 / 10%); */
+  border-radius:0  20px 20px 0;
+  backdrop-filter: blur(5px);
+}
+
+.hero_text {
+  background-repeat: no-repeat;
+  background-image: url(../../assets/images/hero_archi_text.png);
+  min-height: 108px;
+  background-position: center;
+
+}
+.hero_eclipse {
+  background-color: transparent;
+  background-image: url("../../assets/images/heroeclipse.png");
+  /* margin-top: 35px; */
+  /* padding: 100px 0; */
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.hero_faicons {
+ 
+  position: absolute;
+  left: 30px;
+  top: 17px;
+}
+.bg_multi {
+
+ color: -webkit-linear-gradient(#11376C, #64DC96) !important;
+
+}
+.hero_unique_style {
+   /* background-color: #64DC96; */
+  background-image: url(../../assets/images/hero_section.png);
+  margin-top: 80px;
+  padding: 70px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 830px;
+}
+.unique_hero {
+margin-top: 70px
+}
+.width_hero {
+  border-radius: 25px 25px;
+  margin: 1px;
+  width: 100%;
+  max-width: 300px;
+  background-color:#64DC96; 
+  color: #000;
+}
+.nav-outline-btn {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  width: 100%;
+  max-width: 170px;
+  color:#11376C;
+  background-color: #64DC96;
+  border: 1px solid #64DC96 !important;
+}
+.mg_image {
+  margin-top: 75px !important;
+}
+.mg_expand {
+  margin-top: 60px !important;
+}
+.mg_website {
+background-repeat: no-repeat;
+  background-image: url(../../assets/images/hero_web_text.png);
+  position: relative;
+  bottom: -1130px;
+  right: -868px;
+  min-height: 108px;
+}
+.mg_position {
+position: absolute;
+bottom: -46px;
+left: 140px;
+}
+.hero_nav_header {
+  color: #000;
+ background-color: #fff; 
+  border-bottom: 1px solid #fff; 
+
+}
+.nav-outline-btn:hover{
+
+  color:#11376C !important;
+  background-color: #fff !important;
+  border: 1px solid #11376C!important;
+}
+.difference-box {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 70px;
+  padding: 30px;
+  margin: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.web_section {
+  font-family: 'Source Sans Pro' !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+}
+#wrapper {
+  background: #ccc;
+  overflow: hidden;
+  transition: height 200ms;
+}
+.nav_hero {
+  padding: 20px;
+  margin: 20px;
+}
+.nav-tabs .nav-link {
+  display: block;
+  padding: 0 20px;
+  color: #000;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  font-size: 16px;
+  font-weight: 400;
+  border: 0;
+}
+.nav-tabs .nav-link {
+  margin-bottom: -1px;
+  background: 0 0;
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.home-tab-sec {
+  /* background-color: #F9F9F9; */
+  min-height: 679px;
+  background-image: url(../img/tabs-bg.png);
+  /* border-radius: 52px; */
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding: 85px 50px;
+  box-sizing: border-box;
+  position: relative;                    
+}
+.nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #fff !important;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+.nav-tabs {
+  border-bottom: 0;
+}
+.nav-tabs .nav-link {
+  display: block;
+  padding: 0 20px;
+  color: #000 !important;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  font-size: 16px;
+  font-weight: 400;
+  border: 0;
+  margin-left: 50px;
+
+}
+.hero-dropdown-toggle {
+  background: rgba(209, 228, 224, 0.2);
+  backdrop-filter: blur(5px);
+
+  border: 1px solid white;
+  padding: 30px;
+  text-align: left;
+  left: 30px;
+  width: 350px;
+  border-radius: 20px;
+  margin-left: -85px;
+}
+.hero-dropdown-tog {
+  border: 1px solid white;
+  padding: 30px;
+  text-align: left;
+  left: 44px;
+  width: 350px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.mg_left {
+  font-size: 18px !important;
+  font-weight: bold !important;
+  font-family: 'Source Sans Pro';
+  text-align: center;
+      margin-top: 5px;
+
+  position: absolute;
+  left: 130px;
+}
+.hero_box {
+
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 100px;
+  padding: 20px 0;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+.hero_diff-box {
+  background: transparent;
+  border: 2px solid #fff;
+  /* margin: 10px; */
+  padding: 30px;
+  box-shadow: 0 0 15px #e6ecee;
+  transition: all 200ms linear;
+  border-radius: 95px;
+}
+.expand_diff-box {
+  min-height: 300px;
+
+  position: relative;
+  top: -96px;
+  box-shadow: 0 0 15px #e6ecee;
+  background: rgba(255, 255, 255, 0.2);
+
+  padding: 20px 0;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+.text-margin {
+margin-top: 130px;
+}
+.archi_diff-box {
+  min-height: 500px;
+
+  /* position: relative;
+  top: -96px; */
+  box-shadow: 0 0 15px #e6ecee;
+  background: rgba(255, 255, 255, 0.2);
+
+  padding: 20px 0;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.hero_border:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: -11px;
+  right: 4px;
+  bottom: 76px;
+
+
+  left: 67px;
+  border: 2px solid #333333;
+  transition: 0.5s;
+  z-index: -1;
+  border-radius: 15px;
+  /* min-height: 450px; */
+}
+.hero_p {
+  font-size: 18px !important;
+  font-weight: bold !important;
+  font-family: 'Source Sans Pro';
+  text-align: left;
+}
+.hero_f {
+  font-size: 18px !important;
+  font-weight: bold !important;
+  font-family: 'Source Sans Pro';
+  text-align: center;
+}
+.hero_left {
+  margin-left: 30px;
+}
+
+
+.hero_icon {
+  text-align: left;
+  align-self: center;
+}
+.hero_diff-box {
+  /* background: rgba(255, 255, 255, 0.2); */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  left: 15px;
+  border-radius: 20px 20px;
+  bottom: -74px;
+  min-height: 459px;
+  width: 100%;
+  max-width: 572px;
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+  transition: all 200ms linear;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.glass_p {
+  margin-left: 40px;
+  font-family: 'Source Sans Pro' !important;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 30px;
+  font-weight: 400px !important;
+  text-align: left !important;
+}
+.hero_dropdown {
+  max-width: 316px;
+  background: rgb(238 229 229 / 40%);
+  /* border: 1px solid rgba(255,255,255,0.2); */
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+}
+.different-box {
+  background: white;
+  border: 1px solid #000;
+  margin: 10px;
+  padding: 30px;
+  min-height: 132px;
+  width: 85%;
+  transition: all 200ms linear;
+  border-radius: 20px;
+}
+.hero_margin_bt {
+  margin-bottom: 80px;
+}
+.margin_prp {
+  margin-top: 130px;
+
+}
+.differ-box {
+  background: #DDDDDD;
+
+  margin: 10px;
+  padding: 30px;
+  min-height: 100px;
+  box-shadow: 15px #DDDDDD;
+  transition: all 200ms linear;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.drop1 {
+  width: 47%;
+  height: 150px;
+  top: 56px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.drop {
+  background: rgb(238 229 229 / 40%);
+  /* background: rgba(255,255,255,0.4); */
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.2);
+  position: absolute;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  display: block;
+  margin: 0 auto;
+}
+.home-banner {
+  background-image: url('assets/images/syra-header.webp');
+}
+
+
+
+
+.bowtie-lips-banner {
+  background-image: url('../../assets/images/hero_rowbanner.png');
+  height: 577px;
+  background-attachment: scroll;
+}
+
+.custom_heading_width {
+  font-size: 25px;
+  max-width: 100%;
+  margin-top: 10px;
+
+}
+
+.hero_heading {
+  font-size: 54px;
+  font-weight: 800;
+  color: #fff;
+}
+.bg_green {
+  color: #64DC96;
+}
+
+
+body,
+html {
+  width: 100%;
+  overflow-x: hidden;
+
+  margin: 0;
+  padding: 0;
+}
+
+/* .active {
+  border-bottom: 3px solid #64DC96 !important;
+} */
+
+/* .active:hover {
+  border-bottom: 3px solid transparent;
+} */
+.hero_an_appointment a {
+border: 2px solid #fff;
+padding: 9px ;
+width: 100%;
+max-width: 155px;
+font-size: 18px !important;
+margin-top: 30px;
+}
+.book_an_appointment a {
+  color: #fff;
+  font-size: 24px;
+  border-radius: 65px;
+  padding: 18px 50px;
+  display: block;
+  font-weight: 500;
+  background-color: #b79a52;
+  width: 100%;
+  max-width: 470px;
+  margin: 40px auto 0;
+  text-align: center;
+}
+.text {
+	text-transform: uppercase;
+	background: linear-gradient(to right, #64DC96 0%, #11376C 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+.book_an_appointment a:hover {
+  background-color: #fff;
+  color: #b79a52;
+}
+.hero_web_btn a {
+  color: #000 !important;
+  font-size: 14px;
+  border-radius: 35px;
+  padding: 12px 50px;
+  display: inline;
+  font-weight: 600;
+  width: 100%;
+  max-width: 470px;
+  margin: 22px ;
+
+}
+.hero_web_btn a:hover {
+  background: transparent;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+}
+.glass_btn {
+
+}
+.glass_btn :hover {
+
+  background-color: #64DC96 !important; 
+  color: #11376C !important;
+}
+.nav-tabs .nav-link {
+ width: 100%;
+ max-width: 200px;
+  padding: 10px;
+  border-radius: 30px;
+}
+.li_text {
+  margin-left: 50px;
+}
+.li_emoji {
+  position: absolute;
+  top: -186px;
+  right: -27px;
+}
+.li_great {
+  position: absolute;
+
+  top: -167px;
+  right: 48px;
+}
+.li_emoji_1 {
+  position: absolute;
+  top: -104px;
+  right: 12px;
+
+}
+.li_good {
+  position: absolute;
+  top: -84px;
+  right: 78px;
+} 
+.li_emoji_2 {
+  position: absolute;
+  top: -7px;
+  right: 22px;
+
+} 
+.li_neutral {
+  position: absolute;
+  top: 13px;
+  right: 91px;
+}
+
+.li_emoji_3 {
+  position: absolute;
+
+  top: 83px;
+  right: -3px;
+
+} 
+ .li_bad {
+
+  position: absolute;
+  bottom: -130px;
+    left: 249px;
+
+}
+.li_emoji_4 {
+  position: absolute;
+  top: 166px;
+  right: -44px;
+} 
+ .li_verybad {
+  position: absolute;
+  bottom: -211px;
+  right: 25px;
+
+}    
+.nav-tabs .nav-link:hover {
+  color: #64DC96 !important;
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+
+}
+.hero-outline-btn {
+  background-color: #64DC96 !important;
+  color: #11376C !important;
+  float: left;
+}
+.hero-outline-btn:hover {
+  background-color: #11376C !important;
+  color: #fff !important;
+  border: 1px solid #11376C !important;
+
+}
+.green-outline-btn {
+  background-color: #64DC96 !important;
+  border: 1px solid #64DC96 !important;
+  color: #11376C !important;
+  text-align: center;
+}
+.green-outline-btn:hover {
+  background-color: #fff !important;
+  color: #64DC96 !important;
+  border: 1px solid #fff !important;
+
+}
+.hero-mid-outline-btn {
+  background-color: #11376C !important;
+  color: #fff !important;
+}
+.hero-mid-outline-btn:hover {
+  background-color: #64DC96 !important;
+  color: #fff !important;
+  /* border: 2px solid #11376C !important; */
+}
+
+
+
+
+.btn-left.book_an_appointment a {
+  margin: 0;
+}
+
+
+ol.numeric-style {
+  margin: 0;
+  padding: 0;
+}
+
+ol.numeric-style li {
+  font-size: 22px;
+  font-weight: 300;
+  color: #222;
+  margin: 0 0 25px 25px;
+  line-height: initial;
+}
+
+ol.numeric-style li::marker {
+  font-weight: 700;
+}
+
+
+.main_logo {
+  max-width: 160px;
+  width: 160px;
+  margin-top: 20px;
+}
+
+.navbar-nav .nav-item {
+  padding: 0 0.5em;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  border-bottom: 3px solid transparent;
+}
+
+a.nav-link {
+  color: #fff !important;
+}
+
+.hero_nav:hover {
+  border-bottom: 3px solid #64DC96;
+}
+
+.whatsapp_link {
+  padding-left: 2em;
+}
+
+.ageless_beauty {
+  padding: 16em 0 5em 0;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+  color: #9d9b9b !important;
+}
+
+.breadcrumb {
+  background: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.breadcrumb-item a {
+  color: #333;
+}
+
+.breadcrumb-item.active {
+  color: #333;
+  border: 0;
+  font-weight: 500;
+  border-bottom: 0 !important;
+}
+
+/* social-networks */
+ul.social-networks {
+  list-style: none;
+  text-align: right;
+  float: right;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+/* Style the list items inside the UL list, by setting its width, height and line-height 
+  and float them to left and set its border and border-radius.
+ */
+ul.social-networks li {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  float: left;
+  transition: all 0.5s ease;
+}
+
+/* Style the icons by setting its color and margin-top value to 20px 
+to align it properly */
+ul.social-networks li .fa {
+  color: #fff;
+  margin-top: 0;
+  font-size: 18px;
+  transition: all 0.5s ease;
+}
+
+ul.social-networks li .fa:before {
+  position: inherit;
+  top: 0;
+  right: 0;
+}
+
+/* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+  to icons for glowing effect and use transition property for smooth transition effect. */
+/*facebook*/
+ul.social-networks li:hover.facebook {
+  border: 3px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+ul.social-networks li:hover .fa-facebook {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+/*twitter*/
+ul.social-networks li:hover.twitter {
+  border: 3px solid #00aced;
+  box-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+ul.social-networks li:hover .fa-twitter {
+  color: #00aced;
+  text-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+/* instagram */
+ul.social-networks li:hover.instagram {
+  border: 3px solid #bc2a8d;
+  box-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.5s ease;
+}
+
+ul.social-networks li:hover .fa-instagram {
+  color: #bc2a8d;
+  text-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.5s ease;
+}
+
+/* google */
+ul.social-networks li:hover.google {
+  border: 3px solid #dd4b39;
+  box-shadow: 0 0 15px #dd4b39;
+  transition: all 0.5s ease;
+}
+
+ul.social-networks li:hover .fa-google {
+  color: #dd4b39;
+  text-shadow: 0 0 15px #dd4b39;
+  transition: all 0.5s ease;
+}
+
+/* whatsapp */
+ul.social-networks li:hover.linkedin {
+  border: 3px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+ul.social-networks li:hover .fa-linkedin {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+ul.social-networks li.call-pan {
+  width: auto;
+  border: 0;
+  color: #fff;
+  border-radius: 0;
+}
+
+ul.social-networks li.call-pan .fa {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  float: left;
+  transition: all 0.5s ease;
+}
+
+ul.social-networks li.call-pan a {
+  color: #fff;
+}
+
+ul.social-networks li.call-pan:hover {
+  color: #b79a52;
+}
+
+ul.social-networks li.call-pan .fa-phone:hover {
+  border: 3px solid #b79a52;
+  box-shadow: 0 0 15px #b79a52;
+  transition: all 0.5s ease;
+  color: #b79a52;
+}
+
+.main-heading {
+  font-size: 55px;
+  text-align: center;
+  font-weight: 300;
+  padding-top: 70px;
+  color: #222222;
+}
+
+.master-column-header {
+  min-height: 500px;
+  display: table;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.services-banner .master-column-header {
+  min-height: 320px;
+}
+
+.middle-piece-header {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.banner_info h1 {
+  font-size: 50px;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 700;
+}
+
+.banner_info h1 span {
+  font-size: 32px;
+}
+
+
+
+.home-banner .banner_info h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.home-banner .banner_info h1 span {
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+
+
+.seperator {
+  height: 7px;
+  width: 33%;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 2px solid #64DC96;
+  margin-bottom: 1em;
+  
+}
+
+.seperator_about {
+  height: 7px;
+  width: 24%;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 2px solid #64DC96;
+  margin-bottom: 1em;
+}
+
+.seperator2 {
+  height: 7px;
+  width: 42%;
+  text-align: left;
+  border-bottom: 2px solid #b79a52;
+  margin-bottom: 24px;
+}
+
+/*.seperator3 {
+
+    height: 7px;
+    width: 42%;
+    text-align: left;
+    border-bottom: 2px solid #b79a52;
+    margin-bottom: 1em;
+}*/
+.seperator3:after {
+  content: '';
+  display: table;
+  height: 7px;
+  /* float: right; */
+  width: 64%;
+  right: 0;
+  position: absolute;
+  border-bottom: 2px solid #b79a52;
+  margin-bottom: 1em;
+}
+
+.seperator4 {
+  height: 7px;
+  width: 65%;
+  text-align: left;
+  border-bottom: 1px solid #ccb683;
+  margin-bottom: 1em;
+}
+
+.services_p {
+  color: #b79a52;
+  text-align: center;
+  width: 57%;
+  margin: 0 auto;
+}
+
+.pt1 {
+  padding-top: 1em;
+}
+
+.services_img {}
+
+.services_des {
+  padding-top: 4em;
+}
+
+.services_des a {
+  color: #b79a52;
+  border-bottom: 1px solid #000;
+}
+
+.services_sub_info {
+  font-size: 30px;
+  color: #b79a52;
+}
+
+.units_info {
+  color: #222222;
+}
+
+.services_row {
+  padding: 2em 0;
+}
+
+.sub_heading {
+  text-align: center;
+  color: #b79a52;
+  font-weight: 700;
+}
+
+.pb5 {
+  padding-bottom: 5em;
+}
+
+.welcome-sec {
+  position: relative;
+}
+
+.welcome-sec .book_an_appointment a {
+  border: 2px solid #b79a52;
+  width: 250px;
+  padding: 10px;
+}
+
+.welcome-sec .book_an_appointment a:hover {
+  background-color: #fff;
+  color: #b79a52;
+}
+
+.right-bg-1 {
+  background-image: url(assets/images/right-bg-1.png);
+  width: 197px;
+  height: 710px;
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.left-bg-1 {
+  background-image: url(assets/images/left-bg-1.png);
+  width: 222px;
+  height: 710px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.welcome-sec h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #b79a52;
+  margin: 0;
+  text-transform: capitalize;
+  line-height: 1.4em;
+}
+
+
+.c__h1 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 5%;
+}
+
+.restoring__section {
+  background-color: #f4efe3;
+  margin-top: 0 !important;
+  padding: 50px 0 !important;
+}
+
+.restoring__section h3 {
+  margin-bottom: 10px !important;
+  font-size: 46px !important;
+  font-weight: 700 !important;
+  color: #222 !important;
+  margin: 0 0 40px 0;
+  letter-spacing: 2px !important;
+  text-transform: capitalize !important;
+}
+
+.main-service-page .restoring__section {
+  margin-top: 50px !important;
+}
+
+.main-service-page .pat-2 {
+  top: 0;
+}
+
+.welcome-sec h3 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+  color: #333;
+  margin: 25px auto;
+}
+
+.welcome-sec p {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 300;
+  color: #333;
+}
+
+.welcome-sec p.signature {
+  font-size: 22px;
+  font-weight: 700;
+  color: #b79a52;
+  margin: 45px 0 60px 0;
+}
+
+.featured-sec {
+  background-color: #fbf8f0;
+  padding: 70px 0 0;
+  margin-bottom: 150px;
+  margin-top: 150px;
+}
+
+.featured-sec img {
+  max-width: 100%
+}
+
+.mydiv {}
+
+div.ie-container {
+  display: inline-block;
+  position: relative;
+  top: 60px;
+}
+
+div.ie-container:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  bottom: -20px;
+  left: -20px;
+  border: 3px solid #b79a52;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+img {
+  /*vertical-align: middle;  optional */
+}
+
+.ie-container:hover:before {
+  border-style: solid;
+  border-width: 5px;
+  border-image: linear-gradient(45deg, rgb(0, 143, 104), rgb(250, 224, 66)) 1;
+  -webkit-transform-origin: 0 100%;
+}
+
+div.ie-container-2 {
+  display: inline-block;
+  position: relative;
+  top: -120px;
+}
+
+div.ie-container-2:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  bottom: 20px;
+  left: 20px;
+  border: 3px solid #b79a52;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+img {
+  /*vertical-align: middle;  optional */
+}
+
+.ie-container-2:hover:before {
+  border-style: solid;
+  border-width: 5px;
+  border-image: linear-gradient(45deg, rgb(0, 143, 104), rgb(250, 224, 66)) 1;
+  -webkit-transform-origin: 0 100%;
+}
+
+
+
+.featured-sec h2 {
+  font-size: 33px;
+  text-align: center;
+  font-weight: bold;
+  color: #b79a52;
+  margin-top: 100px;
+}
+
+ul.featured-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.featured-list li {
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  color: #333;
+  line-height: normal;
+  margin: 60px auto;
+}
+
+ul.featured-list li a {
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  color: #222222;
+  width: 100%;
+  display: block;
+}
+
+ul.featured-list li a:hover {
+  color: #b79a52;
+  text-transform: none;
+
+}
+
+ul.featured-list li a.view-all {
+  font-size: 20px;
+  color: #fff;
+  background-color: #b79a52;
+  width: 250px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 15px 10px;
+  border-radius: 50px;
+  border: 2px solid #b79a52;
+}
+
+ul.featured-list li a.view-all:hover {
+  background-color: #fff;
+  color: #b79a52;
+}
+
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.meet-the-doc {
+  position: relative
+}
+
+.left-bg-2 {
+  background-image: url(assets/images/left-bg-2.png);
+  width: 275px;
+  height: 1005px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.right-bg-2 {
+  background-image: url(assets/images/right-bg-2.png);
+  width: 200px;
+  height: 790px;
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.meet-the-doc h2 {
+  font-size: 34px;
+  text-align: right;
+  font-weight: bold;
+  color: #b79a52;
+}
+
+.meet-the-doc h3 {
+  font-size: 30px;
+  text-align: right;
+  font-weight: bold;
+  color: #333;
+  margin: 30px 0 40px 0;
+}
+
+.meet-the-doc .seperator3:after {
+  border-color: #64DC96;
+}
+
+.meet-the-doc .learn_more a {
+  color: #000;
+  margin-right: 0;
+}
+
+.meet-the-doc .desc {}
+
+.meet-the-doc .desc p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.meet-the-doc .learn_more {
+  margin-top: 35px;
+}
+
+.insta-feed {
+  margin-bottom: 75px;
+  margin-top: 75px;
+}
+
+.insta-title {
+  margin-bottom: 20px !important;
+}
+
+.insta-title img {
+  margin-bottom: 10px;
+}
+
+.insta-title p {
+  color: #b79a52;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.insta-title a {
+  color: #b79a52;
+  text-decoration: none;
+}
+
+.insta-title a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+
+.testimonials_section {
+  margin-top: 100px;
+}
+
+.testimonials_section p.client {
+  color: #222222;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 70px 0 0;
+}
+
+.testimonials_section .ratings {
+  margin-bottom: 15px;
+}
+
+.testimonials_section .ratings .fa {
+  color: #ffc000;
+  font-size: 17px;
+}
+
+.procedure_p1 {
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+  color: #333;
+  width: 62%;
+  line-height: initial;
+}
+
+/* .slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  height: auto !important;
+} */
+
+.procedure_p2 {
+  width: 70%;
+  font-size: 16px;
+  text-align: left;
+  font-weight: 500;
+  color: #333;
+  padding-bottom: 30px;
+}
+
+.procedure_section {
+  margin-top: 8%;
+}
+
+.procedure_section img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.procedure_section h2 {
+  font-size: 36px;
+  text-align: left;
+  font-weight: bold;
+  color: #333;
+}
+
+.procedure_section h2 {
+  text-align: left;
+}
+
+.pr0 {
+  padding-right: 0;
+}
+
+.bgcs {
+  background-color: #64DC96;
+  padding-left: 3em;
+}
+
+.learn_more {}
+
+.learn_more a {
+
+  color: #222222;
+  font-size: 18px;
+  border-radius: 65px;
+  padding: 10px 30px 11px 40px;
+
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.procedure_section .learn_more a {
+  border: 2px solid #b79a52;
+  color: #222222;
+  font-size: 16px;
+  border-radius: 65px;
+  padding: 8px 20px;
+  font-weight: 500;
+  width: 262px;
+  display: block;
+  text-align: center;
+  line-height: normal;
+  margin-top: 25px;
+}
+
+.ptc {
+  padding-top: 7%;
+}
+
+.dr_col {
+  padding: 5%;
+}
+
+.it_p {
+  font-size: 48px;
+  font-style: italic;
+  text-align: right;
+  padding-bottom: 0.5em;
+}
+
+.about_p,
+.about_p2 {
+  width: 59%;
+  margin: 0 auto;
+  color: #222222;
+  font-weight: 400;
+}
+
+.about_p2 {
+  border: 3px solid #ccb683 !important;
+  padding: 1em 5em;
+  font-weight: 300;
+  margin-top: 3em;
+  margin-bottom: 6em;
+}
+
+.medicine_beauty_wellness {
+  padding: 0 20px;
+}
+
+.pt3p {
+  padding-top: 3%;
+}
+
+.pb5p {
+  padding-bottom: 5%;
+}
+
+.custom_heading {
+  font-size: 45px;
+  font-weight: normal;
+  color: #222222;
+}
+
+.c_color {
+  color: #b79a52;
+  font-weight: bold;
+}
+
+.info_box {
+  width: 73%;
+}
+
+.botox_info {
+  color: #222222;
+  padding-top: 2em;
+}
+
+.read_more_btn {
+  color: #b79a52;
+  border-bottom: 1px solid #000;
+}
+
+.botox_section {
+  padding: 3em 0;
+}
+
+.phone_section {
+  color: #b79a52;
+  font-size: 20px;
+  width: 77%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 3em 0;
+}
+
+.phone_num a {
+  color: #b79a52;
+  font-size: 35px;
+}
+
+.pd3 {
+  padding: 3em 0;
+}
+
+.slide_width {
+  max-width: 950px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.slider_img {
+  background-image: url(assets/images/testimonial-bg.png);
+  text-align: center;
+  background-repeat: no-repeat;
+  height: 338px;
+  background-position: top 0 center;
+  padding-top: 50px;
+}
+
+.slider_img img {
+  display: inline-block !important;
+}
+
+.slider_text {
+  color: #b79a52;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.slick-dots {
+  width: 80% !important;
+  text-align: right !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white !important;
+  background: #c1c1c7 !important;
+  border-radius: 50% !important;
+  font-size: 8px !important;
+}
+
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 18px !important;
+  line-height: 22px !important;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+}
+
+.learn_more_cs {
+  border: 2px solid #b79a52;
+  color: #222222;
+  font-size: 16px;
+  border-radius: 65px;
+  padding: 5px 30px 6px 30px;
+}
+
+.services_des a:hover {
+  text-decoration: none;
+}
+
+.details-card {
+  padding: 70px 0 140px 0;
+}
+
+.details-card h2 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #b79a52;
+  margin-bottom: 70px;
+  margin-top: 20px;
+}
+
+.card-content {
+  background: #ffffff;
+  border: 4px;
+  box-shadow: 0 2px 75px 0 rgba(0, 0, 0, .20), 0 2px 10px 0 rgba(0, 0, 0, .20);
+}
+/* 
+.card-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0;
+  z-index: 1;
+} */
+
+.card-img img {
+  width: 100%;
+  height: 175px;
+  display: block;
+  object-fit: cover;
+}
+
+.card-img img:hover {
+  opacity: 0.8;
+}
+
+.card-img span {
+  position: absolute;
+  top: 15%;
+  left: 12%;
+  background: #1ABC9C;
+  padding: 6px;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transform: translate(-50%, -50%);
+}
+
+.card-img span h4 {
+  font-size: 12px;
+  margin: 0;
+  padding: 10px 5px;
+  line-height: 0;
+}
+
+.card-desc {
+  padding: 1.25rem;
+  min-height: 260px;
+}
+
+.card-desc a:hover {
+  opacity: 0.8;
+}
+
+.card-desc h3 {
+  color: #222;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  min-height: 50px;
+}
+
+.card-desc p {
+  color: #222;
+  font-size: 16px !important;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0px;
+  margin-bottom: 10px;
+  padding: 0;
+  min-height: 90px;
+}
+
+.card-desc p.date {
+  margin-bottom: 0;
+  min-height: auto;
+
+}
+
+.card-desc p.date .fa {
+  margin-right: 5px
+}
+
+
+
+.btn-card {
+  background-color: #1ABC9C;
+  color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+  padding: .84rem 2.14rem;
+  font-size: .81rem;
+  -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  -o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  margin: 0;
+  border: 0;
+  -webkit-border-radius: .125rem;
+  border-radius: .125rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  white-space: normal;
+  word-wrap: break-word;
+  color: #fff;
+}
+
+.btn-card:hover {
+  background: orange;
+}
+
+a.btn-card {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* End card section */
+/* Services Page*/
+.main-service {
+  margin-top: 120px;
+  position: relative;
+}
+
+.patteren-1 {
+  background-image: url(assets/images/services-patteren-2.png);
+  width: 298px;
+  height: 410px;
+  background-position: right;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: 75px;
+}
+
+.patteren-2 {
+  background-image: url(assets/images/services-patteren-1.png);
+  width: 223px;
+  height: 208px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.graphic-1 {
+  box-shadow: 50px -50px rgba(241, 235, 220, 0.8);
+  border-radius: 80px 0 80px 0;
+  z-index: 2;
+  margin-bottom: 120px;
+}
+
+.graphic-1:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 65px;
+  right: -80px;
+  bottom: 90px;
+  left: 65px;
+  border: 2px solid #cac4b6;
+  transition: 0.5s;
+  z-index: -1;
+  border-radius: 80px 0 80px 0;
+  min-height: 450px;
+}
+
+.graphic-2 {
+  box-shadow: 200px -69px rgb(241 235 220 / 80%);
+  border-radius: 80px 0 80px 0;
+  z-index: 1;
+  margin-bottom: 100px;
+}
+
+.graphic-2:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: -86px;
+  right: -250px;
+  bottom: 84px;
+  left: 250px;
+  border: 2px solid #cac4b6;
+  transition: 0.5s;
+  z-index: -1;
+  border-radius: 80px 0 80px 0;
+  min-height: 450px;
+}
+
+.graphic-3 {
+  box-shadow: -226px 100px rgba(241, 235, 220, 0.6);
+  border-radius: 80px 0 80px 0;
+  margin-bottom: 100px;
+  z-index: 1;
+}
+
+.graphic-3:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 50px;
+  right: 150px;
+  bottom: 0px;
+  left: -150px;
+  border: 2px solid #cac4b6;
+  transition: 0.5s;
+  z-index: -1;
+  border-radius: 80px 0 80px 0;
+  min-height: 450px;
+}
+
+.graphic-4 {
+  box-shadow: 50px -70px rgba(241, 235, 220, 0.8);
+  border-radius: 80px 0 80px 0;
+  z-index: 1;
+  margin-bottom: 100px;
+}
+
+.graphic-4:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: -86px;
+  right: -19px;
+  bottom: 84px;
+  left: 26px;
+  border: 2px solid #cac4b6;
+  transition: 0.5s;
+  z-index: -1;
+  border-radius: 80px 0 80px 0;
+  min-height: 450px;
+}
+
+.graphic-5 img {
+  margin-top: -115px;
+}
+
+.content-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details {
+  top: 70%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3 {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p {
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.txt- {
+  font-size: 24px;
+  color: #000;
+  text-transform: uppercase;
+  right: 0;
+  left: 0;
+  text-align: center;
+  bottom: 50px;
+  opacity: 1;
+}
+
+div.test-block {
+  display: block;
+}
+
+p.txt-2 {
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* .boxOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 180px;
+  height: 90px;
+  transition: all .75s;
+  background-color: transparent;
+  overflow: hidden;
+  right: 0;
+  margin: 0 auto;
+} */
+
+.boxOverlay:hover {
+  height: 200px;
+}
+
+.overley-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.text-bottom {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  bottom: 40px;
+  text-align: center;
+}
+
+.text-bottom:hover {
+  display: none;
+}
+
+.fadeIn-bottom {
+  top: 90%;
+}
+
+.fadeIn-top {
+  top: 20%;
+}
+
+.fadeIn-left {
+  left: 20%;
+}
+
+.fadeIn-right {
+  left: 80%;
+}
+
+.grid {}
+
+/* Common style */
+.grid figure {
+  position: relative;
+  min-width: 320px;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 100;
+}
+
+.grid figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption>a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Individual effects */
+/*---------------*/
+/***** Lily *****/
+/*---------------*/
+/*figure.effect-lily img {
+	max-width: none;
+	width: -webkit-calc(100% + 50px);
+	width: calc(100% + 50px);
+	opacity: 0.7;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-40px,0, 0);
+	transform: translate3d(-40px,0,0);
+}*/
+figure.effect-lily figcaption {
+  text-align: center;
+}
+
+figure.effect-lily figcaption>div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px 25px;
+  width: 100%;
+  height: 35%;
+}
+
+.grid figure:hover {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 100px 0 100px 0;
+}
+
+
+
+.cta-sec figure.effect-lily:hover p {
+  margin-top: 0;
+}
+
+figure.effect-lily:hover img,
+figure.effect-lily:hover p,
+figure.effect-lily:hover ul.style-1 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  opacity: 100;
+}
+
+figure.effect-lily:hover ul.style-1 {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  display: block;
+}
+
+ul.style-1 {
+  margin: 0;
+  padding: 0 0 50px 0;
+}
+
+ul.style-1 li {
+  list-style: none;
+  display: block;
+  margin: 8px 0;
+}
+
+ul.style-1 li a {
+  color: #fff;
+  font-size: 16px;
+  border: #fff solid 2px;
+  border-radius: 20px;
+  padding: 3px 10px;
+}
+
+ul.style-1 li a:hover {
+  color: #000;
+  font-size: 16px;
+  border: #fff solid 2px;
+  background-color: #fff;
+}
+
+.injectables ul.style-1 li {
+  display: inline-block;
+  margin: 5px 0;
+}
+
+.cta-sec a {
+  color: #fff;
+  font-size: 22px;
+  border: #fff solid 2px;
+  border-radius: 50px;
+  padding: 6px 15px;
+  display: block;
+}
+
+.cta-sec a:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+ul.style-2 {
+  list-style: none;
+  display: block;
+  margin: 0 0 30px 0;
+  padding: 0;
+}
+
+ul.style-2 li {
+  color: #222;
+  font-size: 22px;
+  border: #fff solid 2px;
+  border-radius: 20px;
+  padding: 1px 20px;
+  line-height: initial;
+  font-weight: 300;
+}
+
+ul.style-2 li::before {
+  content: "\2022";
+  color: #b79a52;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+
+.middle-piece-header.f__b {
+  font-weight: bold;
+}
+
+.terms-box-content {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 70px;
+  border-radius: 80px 0 80px 0;
+  min-height: 470px;
+}
+
+.terms-box-content h3 {
+  margin: 0 0 35px 0;
+}
+
+.terms-box-content p {
+  margin: 0 0 50px 0;
+}
+
+.middle-piece-header p {
+  margin: 0 0 20px 0;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+.diff-box p {
+  font-size: 22px;
+  font-weight: 300;
+  color: #222;
+  margin: 0;
+  line-height: initial;
+}
+
+.diff-box p.large {
+  font-size: 79px;
+  font-weight: 700;
+  line-height: 79px;
+}
+
+
+
+
+
+/* 11's / Frown Lines */
+
+.bowtie-lips {}
+
+.bowtie-lips-banner .master-column-header {
+  min-height: 400px;
+
+}
+
+.bowtie-lips-banner .banner_info h1 {
+  font-size: 48px;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  font-weight: 500;
+}
+
+.bowtie-lips-banner .banner_info h1 small {
+  font-weight: 400;
+  font-size: 25px;
+ 
+}
+
+.bowtie-lips-banner .book_an_appointment a {
+  color: #fff;
+  font-size: 20px;
+  border-radius: 50px;
+  padding: 10px;
+  display: block;
+  font-weight: 500;
+  background-color: transparent;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  margin-top: 50px;
+}
+
+.bowtie-lips .mt-25 {
+  margin-top: 10px;
+}
+
+.bowtie-lips-banner .book_an_appointment a:hover {
+  background-color: #fff;
+  color: #b79a52;
+}
+
+.bowtie-lips .single-section {
+  margin-top: 0px;
+
+}
+
+.bowtie-lips .book_an_appointment a {
+  border: 2px solid #fff;
+  padding: 17px;
+  width: 377px;
+  max-width: 300px;
+  font-size: 18px;
+  margin-top: 30px;
+
+}
+.hero_mg {
+  margin-top: 100px !important;
+}
+
+.bowtie-lips .margin-btn {
+  margin-left: -14px;
+
+}
+.bowtie-lips.learn_more a {
+  border: 2px solid #b79a52;
+  color: #222222;
+  font-size: 18px;
+  border-radius: 65px;
+  padding: 10px;
+  margin: 0 auto;
+  display: block;
+  width: 310px;
+  font-weight: 500;
+}
+
+
+.bowtie-lips .welcome-sec .book_an_appointment a {
+  width: 310px;
+  border: 2px solid #b79a52;
+}
+
+.bowtie-lips .botox-2 {
+  margin-bottom: 0;
+}
+
+.bowtie-lips .with-prp {
+
+  /* margin-top: 50px; */
+  padding: 70px 0;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover;
+}
+
+.bowtie-lips .margin-h3 {
+  margin-top: 30px;
+}
+
+.bowtie-lips .single-page .microneedling-w-pep-hair {
+  margin-top: 60px !important;
+}
+
+.bowtie-lips .restoring-contact h3 {
+  font-size: 34px;
+  font-weight: 700;
+
+  /* margin: 0 0 20px 0; */
+  text-transform: none;
+  padding: 10px 0 0 0;
+}
+
+.bowtie-lips .mg_20 {
+  margin-top: -25px;
+
+}
+
+.bowtie-lips .restoring-contact h2 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #222;
+  margin: 0 0 20px 0;
+  text-transform: none;
+  padding: 10px 0 10px 0;
+}
+
+.bowtie-lips .sessions__sec {
+  background-color: #64DC96;
+  background-image: url(assets/images/bowtie-lips-sectionss.webp);
+  margin-top: 35px;
+  padding: 100px 0;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover;
+}
+
+.req__cons a {
+  max-width: 470px;
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+
+}
+
+.bowtie-lips .with-prp1 {
+  background-color: #64DC96;
+  background-image: url(assets/images/bowtie-lips-lines1-bg.png);
+  margin-top: 35px;
+  padding: 100px 0;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover;
+}
+
+.bowtie-lips .with-prp p {
+  font-weight: 400;
+
+}
+
+.bowtie-lips .with-prp .learn_more {
+  display: block;
+  margin-top: 50px;
+}
+
+.bowtie-lips .with-prp .learn_more a {
+  border: 2px solid #fff;
+  /* background-color:transparent; */
+  font-size: 18px;
+  color: #3b3830;
+  font-weight: 500;
+}
+
+.bowtie-lips .with-prp .learn_more a:hover {
+  border: 2px solid #b79a52;
+  background-color: #b79a52;
+  color: #fff;
+}
+
+
+.bowtie-lips.terms-box {
+  background-image: url(assets/images/crows-feet-terms-box.jpg);
+  padding: 150px 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+}
+
+.bowtie-lips .terms-box .terms-box-content {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 35px;
+  border-radius: 80px 0 80px 0;
+  min-height: 500px;
+  display: table;
+}
+
+.bowtie-lips ul.style-2 li {
+  color: #222;
+  font-size: 22px;
+  border: #fff solid 2px;
+  border-radius: 20px;
+  padding: 1px 10px;
+  margin-bottom: 5px;
+
+  line-height: initial;
+  font-weight: 300;
+}
+
+.bowtie-lips .restoring__section {
+  background-image: url(assets/images/microneedling-restoring-bg.webp);
+  background-color: #a68a4a;
+  margin-top: 100px !important;
+  padding: 62px 0 !important;
+  margin-bottom: 165px;
+  height: 292px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bowtie-lips .restoring__section p {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.bowtie-lips .restoring__section a {
+  border: 2px solid #fff;
+  background-color: #fff;
+  font-size: 18px;
+  color: #3b3830;
+  font-weight: 500;
+  width: 310px;
+  float: left;
+  margin-top: 30px;
+}
+
+
+
+.bowtie-lips .restoring-contact .signature {
+  display: table-cell;
+  vertical-align: middle;
+  max-width: 410px;
+float: right;
+/* padding: 65px 46px; */
+padding: 40px 46px;
+
+}
+.bowtie-lips .book_appoint a {
+ background-color: #fff !important;
+ color: #000;
+}
+.bowtie-lips .book_appoint a:hover {
+  background-color: #a68a4a !important;
+  color: #fff;
+ }
+.bowtie-lips .restoring-contact .signature-img {
+  display: table-cell;
+  vertical-align: bottom;
+  text-align: right;
+}
+
+.bowtie-lips .restoring-contact .signature p.p2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  padding-top: 0;
+  margin-top: 36px;
+
+}
+
+
+
+
+
+
+.bowtie-lips .restoring__section a:hover {
+  border: 2px solid #fff;
+  background-color: #b79a52;
+  color: #fff;
+}
+
+.restoring__section .img-cover {
+  position: relative;
+}
+
+.bowtie-lips .restoring__section img {
+  border-radius: 0;
+  position: absolute;
+  top: -154px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.bowtie-lips .botox-2 .graphic-2 {
+  /*box-shadow: -76px 20px 0px 20px rgb(241 235 220 / 80%);*/
+  box-shadow: 30px 35px 0px -3px rgb(241 235 220 / 80%);
+  border-radius: 104px 0 122px 0;
+  margin-bottom: 45px;
+
+
+}
+
+.bowtie-lips .botox-2 .graphic-2:before {
+  top: -34px;
+  right: 55px;
+  bottom: 34px;
+  min-height: 420px;
+  left: -50px;
+
+}
+
+.bowtie-lips .botox-3 {
+  margin-bottom: 100;
+}
+
+.bowtie-lips .botox-3 .graphic-3 {
+  box-shadow: -46px 64px 0 -11px rgb(241 235 220 / 80%);
+  border-radius: 100px 0 100px 0;
+  z-index: 2;
+  margin-bottom: 90px;
+
+}
+
+.bowtie-lips .botox-3 .graphic-3:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 58px;
+  right: 43px;
+  bottom: -45px;
+  left: -40px;
+  border: 2px solid #cac4b6;
+  transition: 0.5s;
+  z-index: -1;
+  border-radius: 80px 0 80px 0;
+  /* min-height: 450px; */
+}
+
+
+.bowtie-lips .botox-4 .graphic-4 {
+  box-shadow: 40px -35px rgb(241 235 220 / 80%);
+
+
+}
+
+.bowtie-lips .botox-4 .graphic-4:before {
+  top: -20px;
+  right: 35px;
+  bottom: 30px;
+  left: -35px;
+}
+
+.bowtie-lips .botox-1 .graphic-1 {
+  box-shadow: -35px -35px rgb(241 235 220 / 80%);
+  border-radius: 100px 0 100px 0;
+  z-index: 2;
+  margin-bottom: 0px;
+
+}
+
+.bowtie-lips .botox-1 .graphic-1:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 56px;
+  right: -37px;
+  bottom: -32px;
+  left: 48px;
+  border: 2px solid #cac4b6;
+  transition: 0.5s;
+  z-index: -1;
+  border-radius: 80px 0 80px 0;
+  min-height: 389px;
+}
+
+
+.bowtie-lips .what-are-crows-feet {
+  margin-top: 55px;
+
+}
+.bowtie-lips .mt__30 {
+  margin-top: -35px;
+
+  letter-spacing: -2px;
+}
+
+.bowtie-lips .botox-5 .graphic-5 {
+  box-shadow: -32px 52px 0 -4px rgb(241 235 220 / 80%);
+  margin-bottom: 150px;
+
+
+  border-radius: 100px 0 100px 0;
+}
+
+.bowtie-lips .botox-5 .graphic-5:before {
+  top: 41px;
+  right: -34px;
+  bottom: -33px;
+  left: 59px;
+}
+
+.bowtie-lips .botox-4 .graphic-4 {
+  box-shadow: 37px 36px rgb(241 235 220 / 80%);
+  border-radius: 105px 0 105px 0;
+  z-index: 2;
+
+}
+
+.bowtie-lips .mt-20 {
+  margin-top: 50px;
+}
+
+.bowtie-lips .botox-4 .graphic-4:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: -23px;
+  right: 27px;
+  bottom: 29px;
+  left: -40px;
+  border: 2px solid #cac4b6;
+  transition: 0.5s;
+  z-index: -1;
+  border-radius: 80px 0 80px 0;
+  min-height: 450px;
+}
+
+.bowtie-lips .botox-6 .graphic-6 {
+  box-shadow: 40px 48px rgb(241 235 220 / 80%);
+  border-radius: 80px 0 80px 0;
+  z-index: 2;
+  margin-bottom: 120px;
+}
+
+.bowtie-lips .botox-6 .graphic-6:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: -20px;
+  right: 60px;
+  bottom: -20px;
+  left: -25px;
+  border: 2px solid #cac4b6;
+  transition: 0.5s;
+  z-index: -1;
+  border-radius: 80px 0 80px 0;
+  min-height: 389px;
+}
+
+.bowtie-lips .marg_header {
+  margin-top: 10px;
+}
+
+.bowtie-lips .mt__60 {
+  margin-top: 10px;
+}
+.bowtie-lips .take-after {
+  position: relative;
+}
+
+.treatment-options {}
+
+.treatment-options p {
+  margin-bottom: 75px;
+}
+
+/* .bowtie-lips .mt__30 {
+  margin-top: 15px !important;
+
+} */
+.bowtie-lips .mt_50 {
+  margin-top: 60px;
+
+}
+
+.bowtie-lips .outline-left {
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  left: 0;
+  top: 170px;
+  border: 2px solid #b79a52;
+  border-left: 0;
+  border-radius: 0px 0 100px 0;
+}
+
+.bowtie-lips .outline-right {
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #b79a52;
+  border-right: 0;
+  border-radius: 100px 0 0 0;
+  top: inherit;
+}
+
+.bowtie-lips .expect-during .learn_more {
+  margin-top: 80px;
+}
+
+.bowtie-lips .take-after .item {
+  border: 2px solid #b79a52;
+  max-width: 500px;
+  margin: 0 auto;
+  min-height: 690px;
+  padding: 60px 35px;
+  box-sizing: border-box;
+}
+
+.bowtie-lips .take-after .item p {
+  margin: 0;
+}
+
+.bowtie-lips .take-after .item.border-radius-right {
+  border-radius: 100px 0 100px 0;
+  text-align: right;
+}
+
+.bowtie-lips .take-after .item.border-radius-left {
+  border-radius: 0px 100px 0px 100px;
+}
+
+.bowtie-lips .terms-box {
+  background-image: url('assets/images/bowtie-lips-glabellar-bg.jpg');
+  padding: 100px 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+}
+
+.bowtie-lips .terms-box .terms-box-content {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 100px 68px;
+  border-radius: 100px 0 100px 0;
+  min-height: 500px;
+  display: table;
+}
+
+
+.bowtie-lips .terms-box .terms-box-content p:last-child {
+  margin-bottom: 0;
+}
+
+.bowtie-lips .expect-after p {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+.bowtie-lips .botox-5,
+.bowtie-lips .botox-4 {
+  margin-bottom: 0;
+}
+
+.bowtie-lips .unique-design {
+  margin-top: 50px;
+
+
+}
+.bowtie-lips .unique-style {
+  margin-top: 100px;
+
+}
+.bowtie-lips .mt__90 {
+  margin-top: -55px;
+  letter-spacing: -2px;
+}
+.bowtie-lips .botox-treatment {
+  /* margin-top: 70px; */
+}
+.mb__110 {
+  margin-bottom: 110px;
+}
+
+
+.bowtie-lips .before-after-result {
+  background-image: url('assets/images/bowtie-lips-before-after-bg.jpg');
+  min-height: 400px;
+  padding: 100px 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+}
+
+.bowtie-lips .before-after-result h3 {
+  margin-bottom: 70px;
+}
+
+
+
+.bowtie-lips-signature {}
+
+.bowtie-lips-signature .bg {
+  background-image: url(assets/images/bowtie-lips-signature-bg.png);
+  height: 580px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100%;
+  display: table;
+  padding: 80px 0;
+  margin-bottom: 80px !important;
+}
+
+.bowtie-lips-signature .bg .signature {
+  display: table-cell;
+  vertical-align: bottom;
+  text-align: center;
+  padding: 15px 40px;
+  width: 100%;
+}
+
+.bowtie-lips-signature .bg .signature p {
+  font-size: 39px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+}
+
+.bowtie-lips-signature .bg .signature a {
+  border: 0;
+  width: 310px;
+}
+
+
+
+
+/* Brow Lift */
+
+.brow-lift {}
+
+.brow-lift-banner .master-column-header {
+  min-height: 400px;
+}
+
+.brow-lift-banner .banner_info h1 {
+  font-size: 48px;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  font-weight: 500;
+}
+
+.brow-lift-banner .book_an_appointment a {
+  color: #fff;
+  font-size: 20px;
+  border-radius: 50px;
+  padding: 10px;
+  display: block;
+  font-weight: 500;
+  background-color: transparent;
+  width: 100%;
+  max-width: 370px;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  margin-top: 50px;
+}
+
+.bowtie-lips .mt__70 {
+  margin-top: 110px;
+
+}
+
+.brow-lift-banner .book_an_appointment a:hover {
+  background-color: #fff;
+  color: #b79a52;
+}
+
+.brow-lift .book_an_appointment a {
+  border: 2px solid #fff;
+  width: 350px;
+  padding: 10px;
+  font-size: 18px;
+
+}
+
+.brow-lift.learn_more a {
+  border: 2px solid #b79a52;
+  color: #222222;
+  font-size: 18px;
+  border-radius: 65px;
+  padding: 10px;
+  margin: 0 auto;
+  display: block;
+  width: 310px;
+  font-weight: 500;
+}
+
+
+.brow-lift .welcome-sec .book_an_appointment a {
+  width: 310px;
+  border: 2px solid #b79a52;
+}
+
+.brow-lift .botox-2 {
+  margin-bottom: 0;
+}
+
+.brow-lift .with-prp {
+  background-color: #64DC96;
+  background-image: url("assets/images/botox-brow-lift-bg.webp");
+  margin-top: 35px;
+  padding: 120px 0;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover;
+}
+
+.brow-lift .with-prp p {
+  font-weight: 400;
+  margin: 0 0 25px 0;
+}
+
+.brow-lift .with-prp .learn_more {
+  display: block;
+  margin-top: 90px;
+}
+
+.brow-lift .with-prp .learn_more a {
+  border: 2px solid #fff;
+  background-color: #fff;
+  font-size: 18px;
+  color: #3b3830;
+  font-weight: 500;
+}
+
+.brow-lift .with-prp .learn_more a:hover {
+  border: 2px solid #b79a52;
+  background-color: #b79a52;
+  color: #fff;
+}
+
+
+.brow-lift.terms-box {
+  background-image: url(assets/images/crows-feet-terms-box.jpg);
+  padding: 150px 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+}
+
+
+
+.brow-lift .restoring__section {
+  background-image: url(assets/images/microneedling-restoring-bg.webp);
+  background-color: #a68a4a;
+  margin-top: 100px !important;
+  padding: 62px 0 !important;
+  margin-bottom: 165px;
+  height: 292px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.brow-lift .restoring__section p {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.brow-lift .restoring__section a {
+  border: 2px solid #fff;
+  background-color: #fff;
+  font-size: 18px;
+  color: #3b3830;
+  font-weight: 500;
+  width: 310px;
+  float: left;
+  margin-top: 30px;
+}
+
+.brow-lift .restoring__section a:hover {
+  border: 2px solid #fff;
+  background-color: #b79a52;
+  color: #fff;
+}
+
+.restoring__section .img-cover {
+  position: relative;
+}
+
+.brow-lift .restoring__section img {
+  border-radius: 0;
+  position: absolute;
+  top: -154px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.brow-lift .botox-2 .graphic-2 {
+  box-shadow: 56px 25px 0px -29px rgb(241 235 220 / 80%);
+  border-radius: 100px 0 107px 0;
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+.brow-lift .botox-2 .graphic-2:before {
+  top: -13px;
+  right: 87px;
+  bottom: 152px;
+  min-height: 420px;
+  left: -25px;
+}
+
+
+.brow-lift .botox-3 {
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+
+.brow-lift .botox-3 .graphic-3 {
+  box-shadow: 95px 87px 0px -29px rgb(241 235 220 / 80%);
+  border-radius: 0px 0 100px 0;
+}
+
+.brow-lift .botox-3 .graphic-3:before {
+  top: -25px;
+  right: -45px;
+  bottom: 152px;
+  min-height: 420px;
+}
+
+
+.brow-lift .botox-4 .graphic-4 {
+  box-shadow: 40px -35px rgb(241 235 220 / 80%);
+  margin-bottom: 85px;
+}
+
+.brow-lift .botox-4 .graphic-4:before {
+  top: -20px;
+  right: 35px;
+  bottom: 30px;
+  left: -35px;
+}
+
+.brow-lift .botox-1 .graphic-1 {
+  box-shadow: 65px -15px rgb(241 235 220 / 80%);
+  border-radius: 80px 0 80px 0;
+  z-index: 2;
+  margin-bottom: 80px;
+}
+
+.brow-lift .botox-1 .graphic-1:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: -40px;
+  right: 20px;
+  bottom: 73px;
+  left: -20px;
+  border: 2px solid #cac4b6;
+  transition: 0.5s;
+  z-index: -1;
+  border-radius: 80px 0 80px 0;
+  min-height: 389px;
+}
+
+
+.brow-lift .what-are-crows-feet {
+  margin-top: 50px;
+}
+
+
+.brow-lift .botox-5 .graphic-5 {
+  box-shadow: 53px -56px 0 -12px rgb(241 235 220 / 80%);
+  margin-bottom: 0;
+  border-radius: 100px 0 100px 0;
+}
+
+.brow-lift .botox-5 .graphic-5:before {
+  top: 30px;
+  right: -70px;
+  bottom: -30px;
+  left: 85px;
+}
+
+
+.brow-lift .botox-3 .graphic-3 {
+  box-shadow: 53px -56px 0 -12px rgb(241 235 220 / 80%);
+  margin-bottom: 0;
+  border-radius: 100px 0 100px 0;
+}
+
+.brow-lift .botox-3 .graphic-3:before {
+  top: 30px;
+  right: -70px;
+  bottom: -30px;
+  left: 85px;
+}
+
+
+.brow-lift .hassle-free {
+  margin-top: 85px;
+  margin-bottom: 130px;
+}
+
+.brow-lift .before-after-result {
+  background-image: url("assets/images/browlift-befor-after-bg.webp");
+  min-height: 400px;
+  padding: 100px 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+
+.brow-lift .before-after-result h3 {
+  margin-bottom: 70px;
+}
+
+
+.brow-lift .botox-6 .graphic-6 {
+  box-shadow: 40px 48px rgb(241 235 220 / 80%);
+  border-radius: 80px 0 80px 0;
+  z-index: 2;
+  margin-bottom: 120px;
+}
+
+.brow-lift .botox-6 .graphic-6:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: -20px;
+  right: 60px;
+  bottom: -20px;
+  left: -25px;
+  border: 2px solid #cac4b6;
+  transition: 0.5s;
+  z-index: -1;
+  border-radius: 80px 0 80px 0;
+  min-height: 389px;
+}
+
+.brow-lift .take-after {
+  position: relative;
+}
+
+
+.fast-effective {
+  margin-top: 70px;
+}
+
+.outline-left {
+  width: 160px;
+  height: 300px;
+  position: absolute;
+  left: 0;
+  bottom: -35px;
+  border: 2px solid #b79a52;
+  border-left: 0;
+  border-radius: 0px 0 100px 0;
+}
+
+.outline-right {
+  width: 160px;
+  height: 300px;
+  position: absolute;
+  right: 0;
+  top: -120px;
+  border: 2px solid #b79a52;
+  border-right: 0;
+  border-radius: 100px 0 0 0;
+}
+
+
+
+.brow-lift .take-after .item {
+  border: 2px solid #b79a52;
+  max-width: 500px;
+  margin: 0 auto;
+  min-height: 690px;
+  padding: 60px 35px;
+  box-sizing: border-box;
+}
+
+.brow-lift .take-after .item p {
+  margin: 0;
+}
+
+.brow-lift .take-after .item.border-radius-right {
+  border-radius: 100px 0 100px 0;
+  text-align: right;
+}
+
+.brow-lift .take-after .item.border-radius-left {
+  border-radius: 0px 100px 0px 100px;
+}
+
+.brow-lift .terms-box {
+  background-image: url("assets/images/naturalandbeautiful-bg.webp");
+  padding: 90px 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+}
+
+.brow-lift .terms-box .terms-box-content {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 80px 35px;
+  border-radius: 100px 0 100px 0;
+  min-height: 500px;
+  display: table;
+  width: 100%;
+}
+
+
+
+
+.brow-lift .terms-box-content p:last-child {
+  margin-bottom: 0;
+}
+
+.expect-after p {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.brow-lift .terms-box-content .book_an_appointment a {
+  margin-top: 10px;
+}
+
+.brow-lift .botox-5,
+.brow-lift .botox-4 {
+  margin-bottom: 0;
+}
+
+.brow-lift .botox-treatment {
+  margin-top: 80px;
+}
+
+.brow-lift-signature {}
+
+.brow-lift-signature .bg {
+  background-image: url(assets/images/microneedling-hair-signature-bg.webp);
+  height: 565px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100%;
+  display: table;
+  padding: 80px 0;
+  margin-bottom: 80px !important;
+}
+
+.brow-lift-signature .bg .signature {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 420px;
+  text-align: center;
+  padding: 30px 40px;
+  float: right;
+  width: 100%;
+}
+
+.brow-lift-signature .bg .signature p {
+  font-size: 39px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+}
+
+.brow-lift-signature .bg .signature a {
+  border: 0;
+  width: 310px;
+}
+
+
+/* MICRONEEDLING W/ PEP HAIR */
+
+.microneedling-w-pep-hair {}
+
+.microneedling-w-pep-hair-banner .master-column-header {
+  min-height: 400px;
+}
+
+.microneedling-w-pep-hair-banner .banner_info h1 {
+  font-size: 48px;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  font-weight: 500;
+}
+
+.microneedling-w-pep-hair-banner .book_an_appointment a {
+  color: #fff;
+  font-size: 20px;
+  border-radius: 50px;
+  padding: 10px;
+  display: block;
+  font-weight: 500;
+  background-color: transparent;
+  width: 100%;
+  max-width: 370px;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  margin-top: 50px;
+}
+
+.microneedling-w-pep-hair-banner .book_an_appointment a:hover {
+  background-color: #fff;
+  color: #b79a52;
+}
+
+.bowtie-lips .microneedling-w-pep-hair .mb-30 {
+  margin-top: 30px;
+}
+
+.microneedling-w-pep-hair .book_an_appointment a {
+  border: none !important;
+
+  width: 320px;
+  padding: 13px;
+
+
+  font-size: 18px;
+}
+
+.microneedling-w-pep-hair.learn_more a {
+  border: 2px solid #b79a52;
+  color: #222222;
+  font-size: 18px;
+  border-radius: 65px;
+  padding: 10px;
+  margin: 0 auto;
+  display: block;
+  width: 310px;
+  font-weight: 500;
+}
+
+.c__bg .book_an_appointment a {
+  border: 0;
+}
+
+
+.microneedling-w-pep-hair .welcome-sec .book_an_appointment a {
+  width: 310px;
+  border: 2px solid #b79a52;
+}
+
+.microneedling-w-pep-hair .botox-2 {
+  margin-bottom: 0;
+}
+
+.microneedling-w-pep-hair .with-prp {
+  background-color: #64DC96;
+  background-image: url("assets/images/microneedling-w-pep-hair-factor-bg.webp");
+  margin-top: 35px;
+  padding: 100px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.microneedling-w-pep-hair .with-prp p {
+  font-weight: 400;
+}
+
+.microneedling-w-pep-hair .with-prp .learn_more {
+  display: block;
+  margin-top: 50px;
+}
+
+.microneedling-w-pep-hair .with-prp .learn_more a {
+  border: 2px solid #fff;
+  background-color: #fff;
+  font-size: 18px;
+  color: #3b3830;
+  font-weight: 500;
+  max-width: 260px;
+  display: block;
+  margin: 0 auto;
+}
+
+.microneedling-w-pep-hair .with-prp .learn_more a:hover {
+  border: 2px solid #b79a52;
+  background-color: #b79a52;
+  color: #fff;
+}
+
+.microneedling-w-pep-hair .before-after-result {
+  background-image: url("assets/images/browlift-befor-after-bg.webp");
+  min-height: 400px;
+  padding: 100px 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+
+.microneedling-w-pep-hair .before-after-result h3 {
+  margin-bottom: 70px;
+}
+
+.whats-unique {
+  margin-top: 60px;
+}
+
+.microneedling-w-pep-hair .terms-box {
+  background-image: url("assets/images/microneedling-w-pep-hair-trouble-banner.webp");
+  padding: 150px 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+}
+
+.microneedling-w-pep-hair .terms-box p {
+  line-height: 33px;
+  margin-bottom: 30px;
+}
+
+.microneedling-w-pep-hair .terms-box .terms-box-content {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 35px;
+  border-radius: 100px 0 100px 0;
+  min-height: 450px;
+  display: table;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.microneedling-w-pep-hair .bg {
+  background-image: url(assets/images/microneedling-w-pep-hair-signature-bg.webp);
+  height: 565px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100%;
+  display: table;
+  padding: 80px 0;
+  margin-bottom: 80px !important;
+}
+
+.microneedling-w-pep-hair .bg .signature {
+  display: table-cell;
+  vertical-align: middle;
+  max-width: 480px;
+  text-align: left;
+  padding: 30px 40px;
+
+  width: 100%;
+}
+
+.microneedling-w-pep-hair .bg .signature h3 {
+  font-size: 39px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+}
+
+.microneedling-w-pep-hair .bg .signature p {
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+  margin: 5px 0 40px 0;
+}
+
+.microneedling-w-pep-hair .bg .signature a {
+  border: 0;
+  width: 310px;
+}
+
+.restoring__section .img-cover {
+  position: relative;
+}
+
+.microneedling-w-pep-hair .restoring__section img {
+  border-radius: 0;
+  position: absolute;
+  top: -154px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.microneedling-w-pep-hair .botox-2 .graphic-2 {
+  box-shadow: 95px 87px 0px -29px rgb(241 235 220 / 80%);
+  border-radius: 0px 0 100px 0;
+}
+
+.microneedling-w-pep-hair .botox-2 .graphic-2:before {
+  top: -25px;
+  right: -45px;
+  bottom: 152px;
+  min-height: 420px;
+}
+
+
+.microneedling-w-pep-hair .botox-3 {
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+
+.microneedling-w-pep-hair .botox-3 .graphic-3 {
+  box-shadow: 55px -65px 0px -16px rgb(241 235 220 / 80%);
+  border-radius: 100px 0 100px 0;
+}
+
+.microneedling-w-pep-hair .botox-3 .graphic-3:before {
+  top: 121px;
+  right: -70px;
+  bottom: 152px;
+  min-height: 420px;
+  left: 85px;
+}
+
+
+.microneedling-w-pep-hair .botox-4 .graphic-4 {
+  box-shadow: 51px -42px 0 -11px rgb(241 235 220 / 80%);
+  margin-bottom: 85px;
+  border-radius: 100px 0 100px 0;
+}
+
+.microneedling-w-pep-hair .botox-4 .graphic-4:before {
+  top: -20px;
+  right: 35px;
+  bottom: 30px;
+  left: -30px;
+}
+
+.microneedling-w-pep-hair .botox-1 .graphic-1 {
+  box-shadow: 68px 11px 0 -38px rgb(241 235 220 / 80%);
+  border-radius: 100px 0 130px 0;
+  z-index: 2;
+  margin-bottom: 80px;
+  text-align: right;
+}
+
+.microneedling-w-pep-hair .botox-1 .graphic-1:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: -16px;
+  right: 85px;
+  bottom: 73px;
+  left: -20px;
+  border: 2px solid #cac4b6;
+  transition: 0.5s;
+  z-index: -1;
+  border-radius: 80px 0 80px 0;
+  min-height: 389px;
+}
+
+
+.microneedling-w-pep-hair .what-are-crows-feet {
+  margin-top: 50px;
+}
+
+.microneedling-w-pep-hair .what-are-crows-feet p {
+  margin-bottom: 95px;
+}
+
+.microneedling-w-pep-hair .what-are-crows-feet h3 {
+  margin-top: 15px;
+}
+
+
+.microneedling-w-pep-hair .botox-5 .graphic-5 {
+  box-shadow: 50px -65px 0px -16px rgb(241 235 220 / 80%);
+  border-radius: 100px 0 100px 0;
+  margin-bottom: 0;
+}
+
+.microneedling-w-pep-hair .botox-5 .graphic-5:before {
+  top: 30px;
+  right: -65px;
+  bottom: -35px;
+  min-height: 420px;
+  left: 85px;
+}
+
+
+.botox-6 {
+  margin-top: 90px;
+}
+
+.botox-6 h3 {
+  padding-top: 20px;
+
+}
+
+.microneedling-w-pep-hair .botox-6 .graphic-6 {
+  box-shadow: 40px 48px rgb(241 235 220 / 80%);
+  border-radius: 80px 0 80px 0;
+  z-index: 2;
+  margin-bottom: 120px;
+}
+
+.microneedling-w-pep-hair .botox-6 .graphic-6:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: -20px;
+  right: 60px;
+  bottom: -20px;
+  left: -25px;
+  border: 2px solid #cac4b6;
+  transition: 0.5s;
+  z-index: -1;
+  border-radius: 80px 0 80px 0;
+  min-height: 389px;
+}
+
+.expect-after p {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+.microneedling-w-pep-hair .botox-5,
+.microneedling-w-pep-hair .botox-4 {
+  margin-bottom: 0;
+}
+
+.microneedling-w-pep-hair .botox-treatment {
+  margin-top: 80px;
+}
+
+.microneedling-w-pep-hair .botox-treatment p {
+  margin-bottom: 60px;
+}
+
+/*Cookie Consent Begin*/
+.grt-cookie {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background: #FFF;
+  color: #333;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+}
+
+.grt-cookie-active {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  z-index: 99999999;
+  background-color: #fff !important;
+}
+
+.grt-cookie p {
+  font-size: 14px;
+  margin: 0;
+  padding: 17px 0;
+  line-height: 1.35;
+  color: #001730;
+  font-weight: normal;
+}
+
+.grt-cookie p a {
+  color: #1f73b7;
+  text-decoration: underline;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.grt-cookie-button {
+  display: inline-block;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 12px 16px;
+  margin-left: 12px;
+  background: #b79a52 !important;
+  color: #FFF;
+  text-transform: capitalize;
+  white-space: nowrap;
+  min-width: 120px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.sa_logo_2 {
+  width: 20%;
+}
+
+.banner_custom {
+  background-color: #b79a52;
+  padding: 2em 1em;
+}
+
+.form_custom {
+  padding: 2em 0;
+}
+
+.newsletter {
+  font-weight: bold;
+  color: #b79a52;
+  font-size: 14px;
+  margin-right: 1em;
+}
+
+.form_custom input {
+  border: 2px solid #b79a52;
+  border-radius: 25px;
+  margin-right: 1em;
+}
+
+.form_custom ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #64DC96;
+  opacity: 1;
+  /* Firefox */
+}
+
+.sign_up {
+  border: 2px solid #b79a52;
+  border-radius: 25px;
+  padding-right: 2em;
+  padding-left: 2em;
+  font-weight: 600;
+}
+
+.footer_heading,
+.footer_heading a {
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 0;
+  border-bottom: 2px solid #fff;
+  font-size: 18px;
+  padding-bottom: 5px;
+  width: 100%;
+  max-width: 250px;
+}
+
+.footer_heading a:hover {
+  color: #64DC96;
+}
+.footer_image {
+  top: 10px;
+}
+.footer_diff-box {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  max-width: 450px;
+
+  padding: 40px 0;
+  margin-top: 30px;
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+  border-radius:0  20px 20px 0;
+  backdrop-filter: blur(5px);
+
+}
+.footer_custom {
+   /* background-color: #11376C; */
+  /* background-image: url(../../assets/images/sa-footer-bg.png);  */
+  padding: 0 0 30px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.footer_row p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.footer_ul {
+  column-count: 2;
+  padding-left: 0px;
+}
+
+/* .footer_ul li {
+  font-size: 18px;
+  margin: 0 23px; 
+   display: block; 
+} */
+
+.footer_ul li a {
+  color: #fff;
+}
+
+.footer_ul li a:hover {
+  color: #64DC96;
+  margin: 7px;
+}
+
+.chat_btn {
+  border-radius: 25px;
+  color: #333333;
+  border: 0;
+  padding: 0.5em 2em;
+  font-weight: bold;
+  background-color: #ebebeb;
+}
+
+.footer-social {}
+
+.footer-social .fa {
+  color: #b79a52;
+  background: #fff;
+  padding: 4px 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 24px;
+  border-radius: 100%;
+  text-align: center;
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+.footer-social li {
+  margin-bottom: 15px;
+}
+
+.footer-social .fa:before {
+  position: inherit;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.contact-page {
+  margin: 100px 0;
+}
+
+.contact-page .paragraph {
+  padding-left: 30px;
+}
+
+.contact-page.welcome-sec h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #333;
+  margin: 0 0 15px 0;
+  text-transform: capitalize;
+  line-height: 1.4em;
+}
+
+.contact-page ul.hours {
+  color: #000;
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.contact-page ul.hours li {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.contact-page ul.hours li span {
+  margin-right: 40px;
+}
+
+.contact-page p {
+  text-align: left;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contact-page p>a {
+  color: #b79a52;
+}
+
+.contact-page .book_an_appointment {
+  margin: 25px 0 70px 0;
+}
+
+.contact-page .book_an_appointment a {
+  border: 2px solid #b79a52;
+  max-width: 320px;
+  padding: 10px;
+  width: 100%;
+  font-size: 18px;
+}
+
+.contact-map {}
+
+.contact-map iframe {}
+
+
+#backtotop {
+  padding: 0.5em 1em;
+  border-radius: 50%;
+  background: #ebebeb;
+  margin-left: 0.8em;
+  cursor: pointer;
+}
+
+.circle_social {
+  border-radius: 50%;
+  margin: 0.15em;
+  font-size: 3em;
+}
+
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 1em;
+}
+
+.fa_tw {
+  background: #3B5998;
+  color: #3B5998;
+  padding: 0.02em 0.2em;
+}
+
+.fa_lk {
+  font-size: 1.5em !important;
+  background: #b79a52 !important;
+  color: #ffffff !important;
+  padding: 0.2em 0.2em;
+  border-radius: 50%;
+}
+
+.fa_in {
+  background: #3B5998;
+  color: #3B5998;
+  padding: 0.01em 0.1em;
+}
+
+.social_links svg:not(:root).svg-inline--fa.fa_lk {
+  color: #b79a52;
+  background: #ffffff;
+}
+
+.social_links svg:not(:root).svg-inline--fa.fa_fb {
+  color: #b79a52;
+  background: #ffffff;
+}
+
+.chat_div {
+  padding: 2em 0;
+  display: none;
+}
+
+.social_links svg:not(:root).svg-inline--fa {
+  background: #b79a52;
+  color: #ffffff;
+  font-size: 1.5em;
+  margin-right: 0.3em;
+}
+
+.c_right {
+  color: #fff;
+  font-weight: 400;
+  padding: 0;
+  background-color: transparent;
+  margin-top: 10px;
+  border-top: 1px solid #fff;
+  padding-top: 20px;
+}
+
+.copyright {
+  text-align: center
+}
+
+.line-with-love {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.line-with-love a {
+  color: #fff;
+}
+
+.line-with-love a:hover {
+  color: #64DC96;
+}
+
+.line-with-love .fa {
+  color: red;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(.75);
+  }
+
+  20% {
+    transform: scale(1);
+  }
+
+  40% {
+    transform: scale(.75);
+  }
+
+  60% {
+    transform: scale(1);
+  }
+
+  80% {
+    transform: scale(.75);
+  }
+
+  100% {
+    transform: scale(.75);
+  }
+}
+
+.line-with-love .fa {
+  animation: heartbeat 1s infinite;
+}
+
+p.loc_info {
+  font-size: 16px;
+  color: #fff;
+  line-height: normal;
+}
+
+.loc_info a {
+  color: #fff;
+  text-decoration: none;
+}
+.hero_info a {
+  color: #000;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.loc_info a:hover {
+  color: #64DC96;
+}
+
+.loc_info svg:not(:root).svg-inline--fa {
+  /* overflow: visible; */
+  color: #64DC96;
+}
+
+.dr_heading {
+  text-align: right;
+}
+
+.view_prof {
+  text-align: right;
+}
+
+.t_right {
+  text-align: right;
+}
+
+button:focus {
+  outline: none !important;
+  -webkit-outline: none !important;
+  -moz-outline: none !important;
+}
+
+
+
+/* Updated Footer */
+
+.footer-upper {
+  background-color: #11376C;;
+  padding: 60px 0;
+  margin-bottom: 30px;
+}
+
+.footer-upper .footer_heading {
+  border: 0;
+  margin-bottom: 20px;
+
+}
+
+.footer-upper .fa {
+  font-size: 25px;
+  margin-right: 4px;
+  width: 25px;
+}
+.hero_mg {
+  padding-left: 80px;
+}
+.hero_channel_p {
+  font-family: 'Source Sans Pro' !important;
+font-size: 24px !important;
+font-weight: 400px !important;
+margin-top: 25px;
+
+}
+.hero_fg {
+  padding-left: 40px;
+}
+.hero_copy {
+  color: #fff;
+  margin-left: 117px;
+
+}
+.hero-prp {
+  background-color: #11376C;
+  /* background-image: url(../../assets/images/hero_section_lap.png); */
+  margin-top: 100px;
+  padding: 50px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+.hero_expand_icons {
+
+  background-image: url(../../assets/images/hero_expand.png);
+
+  padding: 100px 0;
+  background-repeat: no-repeat;
+  background-position: left;
+  /* background-size: auto; */
+}
+/* ul.hours {
+  border-right: 1px solid #fff;
+} */
+
+
+ul.hours {
+  color: #fff;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul.hours li {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+ul.footer_ul li {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+ .social-links a {
+  color: #fff;
+  margin-right: 10px;
+  transition: 0.3s;
+  font-size: 30px;
+}
+ul.hours li span {
+  margin-right: 40px;
+}
+
+ul.hours li a {
+  color: #fff;
+}
+
+ul.hours li a:hover {
+  color: #64DC96;
+}
+
+.footer-nav-wrap {}
+
+
+.divider {
+  display: flex;
+}
+
+.divider:before,
+.divider:after {
+  content: "";
+  flex: 1;
+}
+
+.divider img,
+.divider p {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.line {
+  align-items: center;
+  margin: 1em 0 0;
+}
+
+.line:before,
+.line:after {
+  height: 2px;
+  margin: 0;
+}
+
+.one-line:before,
+.one-line:after {
+  background-image: linear-gradient(to right, #fff 50%, #fff 50%);
+  background-size: 14px 100%;
+}
+
+.top-divider .s1 {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: normal;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+
+.middle-piece-header .terms-box-content p {
+  margin: 0 0 20px 0;
+}
+
+.service-tiles {
+  margin-bottom: 35px;
+}
+
+.two-col {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+ul.services_ul {
+  color: #fff;
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 0 0 0;
+}
+
+ul.services_ul li {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+ul.services_ul li a {
+  color: #fff;
+}
+
+ul.services_ul li a:hover {
+  color: #64DC96;
+}
+
+
+
+/* Mega Menu */
+
+.dropdown-menu ul.services_ul {
+  color: #fff;
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 0 0 0;
+}
+
+.dropdown-menu ul.services_ul li {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.dropdown-menu ul.services_ul li a {
+  color: #444;
+}
+
+.dropdown-menu ul.services_ul li a:hover {
+  color: #000;
+}
+
+.dropdown-menu .footer_heading {
+  color: #000;
+}
+
+
+
+
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1199px) {
+
+  .navbar-nav .nav-item {
+    font-size: 14px;
+  }
+
+.bowtie-lips .botox-treatment {
+  margin-top: 50px !important;
+}
+  .meet-the-doc .learn_more a {
+    color: #000;
+    margin-right: 0;
+    display: inline-block;
+    font-size: 13px;
+    text-align: center;
+  }
+  .bowtie-lips .botox-1 .graphic-1 {
+    box-shadow: -18px -35px rgb(241 235 220 / 80%);
+
+  }
+  .botox-1 .graphic-1 {
+    box-shadow: 18px -25px rgb(241 235 220 / 80%);
+  }
+  .bowtie-lips .botox-5 .graphic-5 {
+    box-shadow: -23px 46px 0 -10px rgb(241 235 220 / 80%);
+
+  }
+
+  .botox-1 .graphic-1:before {
+    right: -17px !important;
+
+  }
+
+  .botox-2 .graphic-2 {
+    box-shadow: 130px 50px rgb(241 235 220 / 80%);
+  }
+
+  .botox-3 .graphic-3 {
+    box-shadow: -23px 60px 0 -15px rgb(241 235 220 / 80%);
+
+  }
+
+  .botox-3 .graphic-3:before {
+    right: -9px !important;
+  }
+
+  .botox-5 .graphic-5:before {
+    right: -11px !important;
+  }
+  .bowtie-lips .botox-4 .graphic-4:before {
+    left: -8px;
+  }
+  .jeaveau-newtox-page .botox-5 .graphic-5:before {
+    right: -25px;
+  }
+
+  .crows-feet .botox-5 .graphic-5:before {
+    right: -25px;
+  }
+
+  .crows-feet .botox-4 .graphic-4:before {
+
+    right: -25px;
+  }
+
+  .single-page {
+    margin-top: 50px;
+  }
+
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 990px) {
+
+  ul.hours li {
+    font-size: 12px !important;
+  }
+
+  .footer-upper .fa {
+    font-size: 18px;
+    margin-right: 5px;
+    width: 18px;
+  }
+
+  p.loc_info {
+    font-size: 10px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .footer_ul li {
+    font-size: 16px;
+    margin: 0 15px;
+  }
+
+  .single-page h3 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+
+  }
+
+  .botox-result h3 {
+    margin: 40px 0 30px 0;
+  }
+
+  .botox-result {
+    padding: 50px 0;
+  }
+
+  .botox-result .learn_more {
+    margin-bottom: 0;
+  }
+
+  .procedure_p1,
+  .procedure_p2 {
+    width: 90%;
+    font-size: 13px;
+  }
+
+  .proc_heading {
+    padding-top: 3%;
+  }
+
+  .slider_text {
+    color: #b79a52;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-device-width : 1159px) and (max-device-width : 1390px) {
+
+  .procedure_p1,
+  .procedure_p2 {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .procedure_p2 {
+    padding-bottom: 2em;
+  }
+
+  .proc_heading {
+    text-align: left;
+  }
+}
+
+/*Desktop Queries Starts*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1159px) {
+
+  .cta-sec a {
+    font-size: 16px;
+  }
+
+  .main_logo {
+    max-width: 231px;
+    width: 231px;
+  }
+
+  .whatsapp_link {
+    padding-left: 1em;
+  }
+
+  .proc-heading {
+    text-align: left;
+  }
+
+  .procedure_p1,
+  .procedure_p2 {
+    width: 90%;
+    font-size: 15px;
+  }
+
+  .proc_heading {
+    text-align: left;
+    font-size: 30px;
+  }
+
+  .procedure_p2 {
+    padding-bottom: 1em;
+  }
+
+  .learn_more {
+    padding-bottom: 2em;
+  }
+
+  .blog-section {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .blog_info {
+    font-size: 13px;
+  }
+
+  .custom_heading {
+    font-size: 30px;
+  }
+
+  .botox_info {
+    color: #222222;
+    padding-top: 0.5em;
+    font-size: 0.8em;
+  }
+
+  .about_p,
+  .about_p2 {
+    width: 80%;
+  }
+
+  .newsletter {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 2em;
+  }
+
+  .form-group {
+    width: 100%;
+    padding-bottom: 1em;
+  }
+
+  .form-group input {
+    width: 100% !important;
+    margin-right: 0;
+  }
+
+  .sign_up {
+    width: 100%;
+  }
+
+  .services_p {
+    width: 80%;
+  }
+}
+
+/*Desktop queries ends*/
+/* iPads Large ----------- */
+
+
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1350px) {
+
+  .outline-left,
+  .outline-right,
+  .bowtie-lips .outline-left,
+  .bowtie-lips .outline-right {
+    width: 80px;
+  }
+
+}
+
+
+
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1199px) {
+  .microneedling-hair .take-after .item {
+    min-height: 700px;
+    padding: 25px;
+  }
+  .bowtie-lips .single-section {
+    margin-top: 25px;
+}
+  /* .bowtie-lips .restoring-contact .signature {
+    padding: 95px 13px 30px 48px;
+
+  } */
+/* 
+  .bowtie-lips .restoring-contact .signature p.p2 {
+
+    margin: 40px 100px 35px 0;
+  } */
+
+  .bowtie-lips .take-after .item {
+    min-height: 840px;
+  }
+
+  .bowtie-lips .with-prp {
+    margin-top: 70px;
+  }
+
+  .bowtie-lips .sessions__sec {
+    padding: 55px 0;
+  }
+
+  .bowtie-lips .mt-25 {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1150px) {
+  .bowtie-lips-signature .bg {
+    height: 533px;
+    border-radius: 100px 0 100px 0;
+  }
+
+  .bowtie-lips .botox-3 .graphic-3 {
+
+    box-shadow: 20px -32px rgb(241 235 220 / 80%);
+    border-radius: 110px 0 110px 0;
+  }
+}
+
+
+@media only screen and (min-device-width : 992px) and (max-device-width : 1024px) {
+
+  .meet-the-doc h3,
+  .meet-the-doc h2 {
+    font-size: 24px;
+  }
+  .bowtie-lips .mt__70 {
+    margin-top: 90px;
+}
+  .bowtie-lips .upper_lip_margin {
+    margin-top: 30px !important;
+  }
+  .bowtie-lips .unique-design {
+    margin-top: 85px;
+}
+  .bowtie-lips .sessions__sec {
+
+    padding: 50px 0;
+
+  }
+
+
+
+
+  .bowtie-lips .with-prp {
+    margin-top: 40px;
+    padding: 50px 0;
+  }
+
+  .bowtie-lips .botox-3 .graphic-3 {
+    margin-bottom: 38px;
+    /* box-shadow: 20px -32px rgb(241 235 220 / 80%); */
+    border-radius: 110px 0 110px 0;
+  }
+
+  .bowtie-lips .what-are-crows-feet {
+    margin-top: 55px;
+  }
+
+  .microneedling-w-pep-hair .botox-5 .graphic-5:before {
+    right: -50px;
+  }
+
+  .microneedling-w-pep-hair .terms-box {
+    padding: 100px 0;
+  }
+
+  .microneedling-w-pep-hair .bg {
+    margin-bottom: 0px !important;
+  }
+
+  /* .bowtie-lips .botox-3 .graphic-3 {
+    box-shadow: -36px 70px rgb(241 235 220 / 80%);
+  } */
+
+
+
+
+
+  .bowtie-lips-signature .bg {
+    height: 533px;
+    padding: 80px 0;
+    margin-bottom: 0px !important;
+  }
+
+  .bowtie-lips .single-page h3 {
+    font-size: 25px;
+    margin: 20px 0 20px 0;
+  }
+
+  .bowtie-lips .take-after .item p {
+    font-size: 20px;
+  }
+
+  .bowtie-lips .botox-2 .graphic-2 {
+    box-shadow: -43px 20px 0px -4px rgb(241 235 220 / 80%);
+    border-radius: 100px 0 100px;
+  }
+
+  .bowtie-lips .botox-2 .graphic-2:before {
+    left: -30px;
+    bottom: -33px;
+  }
+
+  .outline-left,
+  .outline-right,
+  .bowtie-lips .outline-left,
+  .bowtie-lips .outline-right {
+    width: 80px;
+  }
+
+  .microneedling-hair-signature .bg {
+    height: auto;
+    background-size: auto;
+    display: table;
+    padding: 40px 0;
+    margin-bottom: 50px !important;
+    border-radius: 120px 0 120px 0;
+  }
+
+  .microneedling-hair .take-after .item {
+    min-height: 800px;
+    padding: 30px;
+  }
+
+  .microneedling-hair-signature .bg {
+    padding: 40px 0;
+  }
+
+  .microneedling-hair .botox-5 .graphic-5 {
+    box-shadow: -30px -30px 0 0 rgb(241 235 220 / 80%);
+  }
+
+  .microneedling-hair .botox-5 .graphic-5:before {
+    right: -40px;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 991px) {
+
+  .restoring-contact.c__bg {
+    min-height: 400px;
+    background-size: cover;
+    display: table;
+    margin-top: 40px !important;
+  }
+
+  .p2.c__p2 {
+    margin: 0 auto !important;
+    margin-top: 25px !important;
+  }
+
+  .c__bg .book_an_appointment a {
+    margin: 0 auto !important;
+
+  }
+
+
+
+  .master-column-header {
+    min-height: 600px;
+  }
+
+  .meet-the-doc .learn_more a {
+    float: right;
+  }
+
+  .home-banner .banner_info h1 span {
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+
+  .home-banner .banner_info h1 {
+    font-size: 42px;
+    font-weight: 700;
+  }
+
+  .microneedling-w-pep-hair .botox-1 .graphic-1 {
+    box-shadow: 58px 11px 0 -38px rgb(241 235 220 / 80%);
+  }
+
+  .microneedling-w-pep-hair .botox-3 .graphic-3:before {
+    top: 121px;
+    right: -18px;
+    bottom: -50px;
+    min-height: auto;
+    left: 85px;
+  }
+
+  .microneedling-w-pep-hair .with-prp .learn_more {
+    padding-bottom: 0;
+  }
+
+  .microneedling-w-pep-hair .botox-5 .graphic-5 {
+    box-shadow: 35px -65px 0px -16px rgb(241 235 220 / 80%);
+  }
+
+  .microneedling-w-pep-hair .botox-5 .graphic-5:before {
+    top: 30px;
+    right: -10px;
+    bottom: -35px;
+    min-height: 420px;
+    left: 85px;
+  }
+
+  .microneedling-w-pep-hair .botox-4 .graphic-4:before {
+    left: -18px;
+  }
+
+  .microneedling-w-pep-hair .terms-box {
+    padding: 100px 0;
+  }
+
+  .microneedling-w-pep-hair .bg {
+    background-size: cover;
+    display: table;
+    padding: 80px 0;
+    margin-bottom: 80px !important;
+    border-radius: 100px 0 100px 0;
+    background-position: right;
+  }
+
+  .microneedling-w-pep-hair .what-are-crows-feet p {
+    margin-bottom: 20px;
+  }
+
+  .brow-lift .botox-2 .graphic-2 {
+    box-shadow: 50px 25px 0px -29px rgb(241 235 220 / 80%);
+  }
+
+  .brow-lift .botox-3 .graphic-3 {
+    box-shadow: 30px -56px 0 -12px rgb(241 235 220 / 80%);
+  }
+
+  .brow-lift .botox-3 .graphic-3:before {
+    right: -12px;
+  }
+
+  .bowtie-lips .botox-3 {
+    margin-bottom: 0;
+  }
+
+
+
+  .bowtie-lips .with-prp {
+    background-color: #fff;
+    padding: 35px 0;
+    margin-top: 45px;
+  }
+
+  .bowtie-lips .with-prp .learn_more {
+    margin-bottom: 0;
+  }
+
+
+
+}
+
+.bowtie-lips .botox-5 .graphic-5:before {
+  top: -36px;
+  right: -43px;
+  bottom: 59px;
+  left: 61px;
+  min-height: 420px;
+}
+
+/* .bowtie-lips .botox-3 .graphic-3 {
+    box-shadow: -25px 70px rgb(241 235 220 / 80%);
+  } */
+
+.bowtie-lips .botox-3 .graphic-3:before {
+  top: -37px;
+  right: -36px;
+  bottom: 42px;
+  left: 47px;
+  min-height: 420px;
+}
+
+
+
+.bowtie-lips .botox-2 .graphic-2 {
+  box-shadow: 38px 39px 0px 0px rgb(241 235 220 / 80%);
+  border-radius: 100px 0 100px 0;
+}
+
+
+.bowtie-lips .before-after-result {
+  padding: 50px 0;
+}
+
+.bowtie-lips .before-after-result h3 {
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.outline-left,
+.outline-right,
+.bowtie-lips .outline-left,
+.bowtie-lips .outline-right {
+  width: 60px;
+}
+
+.bowtie-lips .take-after .item {
+  border: 2px solid #b79a52;
+  max-width: 500px;
+  margin: 0 auto;
+  min-height: 800px;
+  padding: 35px;
+  box-sizing: border-box;
+}
+
+.bowtie-lips .take-after .item p {
+  font-size: 18px;
+}
+
+.bowtie-lips .take-after h3 {
+  font-size: 18px;
+  margin: 0 0 20px 0;
+}
+
+.outline-right {
+  top: -38px;
+}
+
+.microneedling-hair .botox-5 .graphic-5 {
+  box-shadow: -20px -30px 0 0 rgb(241 235 220 / 80%);
+}
+
+.microneedling-hair .botox-5 .graphic-5:before {
+  right: -20px;
+}
+
+.microneedling-hair-signature .bg {
+  height: auto;
+  background-size: auto;
+  display: table;
+  padding: 40px 0;
+  margin-bottom: 50px !important;
+  border-radius: 120px 0 120px 0;
+}
+
+.microneedling-hair-signature .bg .signature {
+  padding: 30px;
+}
+
+.microneedling-hair-signature .bg .signature p {
+  font-size: 30px;
+}
+
+.microneedling-hair .take-after .item {
+  min-height: 750px;
+  padding: 35px;
+}
+
+.microneedling-hair .take-after .item h3 {
+  font-size: 18px;
+}
+
+.microneedling-hair .take-after .item p {
+  font-size: 18px;
+}
+
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+  .microneedling-face .botox-5 .graphic-5:before {
+    right: -15px;
+  }
+  /* .bowtie-lips .unique-style {
+    margin-top: 107px ;
+} */
+  .microneedling-face .botox-4 .graphic-4:before {
+    left: -12px;
+  }
+
+  .botox-6 {
+    margin-top: 0;
+  }
+
+  .microneedling-face .botox-6 .graphic-6 {
+    box-shadow: 20px 48px rgb(241 235 220 / 80%);
+  }
+
+  .microneedling-face .botox-1 .graphic-1 {
+    box-shadow: 18px -15px rgb(241 235 220 / 80%);
+  }
+
+  .microneedling-face .with-prp {
+    padding: 50px 0;
+  }
+
+  .microneedling-face .with-prp .learn_more {
+    margin-bottom: 0;
+  }
+
+  ul.hours li {
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+
+  p.loc_info {
+    font-size: 14px;
+    color: #fff;
+    line-height: normal;
+    text-align: left;
+  }
+
+  ul.hours {
+    border-right: 0;
+  }
+
+  .footer_heading {
+
+    font-size: 16px;
+  }
+
+  ul.featured-list li {
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    color: #333;
+    line-height: normal;
+    margin: 30px auto;
+  }
+
+  .navbar {
+    /* background-color: #fbf5e7 !important;*/
+  }
+
+  .whatsapp_link {
+    padding-left: 0;
+  }
+
+  .social_links {
+    display: flex;
+  }
+
+  .social_ul {
+    margin: 0 auto !important;
+    display: flex;
+    align-items: center;
+    padding-bottom: 1em !important;
+  }
+}
+
+@media only screen and (max-device-width: 991px) and (min-device-width: 768px) {
+
+
+  .bowtie-lips .restoring-contact {
+    min-height: 500px;
+    background-size: cover;
+    display: table;
+    background-position: bottom right;
+
+  }
+
+  .restoring__section .newtox-getintouch p {
+    font-size: 28px;
+  }
+
+  .patteren-1 {
+    display: none;
+  }
+
+  .graphic-1 {
+    box-shadow: none;
+  }
+
+  .graphic-1:before {
+    top: -20px;
+    right: -110px;
+    bottom: 0;
+    left: 65px;
+  }
+
+  .graphic-2:before {
+    top: -100px;
+    right: -220px;
+    bottom: 84px;
+  }
+
+  .graphic-3 {
+    box-shadow: -115px 100px rgb(241 235 220 / 60%);
+  }
+
+  .graphic-3:before {
+    top: 87px;
+    right: 150px;
+    bottom: 0px;
+    left: -124px;
+  }
+
+  .cta-sec a {
+    font-size: 16px;
+  }
+}
+
+/* Ipads Medium ----------- */
+@media only screen and (max-device-width: 768px) and (min-device-width: 480px) {
+  .pd_img img {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .main_logo {
+    max-width: 231px;
+  }
+
+  .c_center {
+    text-align: center !important;
+  }
+
+  .social_links {
+    display: flex;
+  }
+
+  .social_ul {
+    margin: 0 auto !important;
+    display: flex;
+    align-items: center;
+    padding-bottom: 1em !important;
+  }
+
+  .slick-dots {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .whatsapp_link {
+    padding-left: 0;
+  }
+
+  .whatsapp_link {
+    width: 70%;
+  }
+
+  .container {
+    max-width: 95%;
+  }
+
+  .main_logo {
+    width: 150px;
+  }
+
+  .dr_image {
+    text-align: center;
+  }
+
+  .form-group {
+    width: 100%;
+    padding-bottom: 1em;
+  }
+
+  .form-group input {
+    width: 100% !important;
+    margin-right: 0;
+  }
+
+  .ageless_beauty img {
+    width: 70%;
+    padding-top: 10%;
+  }
+
+  .ageless_beauty {
+    padding: 5em 0 5em 0;
+  }
+
+  .main-banner {
+    height: auto;
+    max-height: 100%;
+  }
+
+  .main-heading {
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .services_p {
+    width: 95%;
+  }
+
+  .services_row .row {
+    padding: 1em;
+  }
+
+  .procedure_p1,
+  .procedure_p2 {
+    width: 95%;
+  }
+
+  .procedure_p2 {
+    padding-bottom: 2em;
+  }
+
+  /* .learn_more {
+    margin-bottom: 3em;
+  } */
+
+  /* .bgcs {
+    text-align: center !important;
+    padding: 1em 2em;
+  }*/
+  .seperator {
+    width: 70%;
+  }
+
+  .seperator2 {
+    height: 7px;
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid #b79b52;
+    margin-bottom: 1em;
+  }
+
+  .seperator3:after {
+    content: '';
+    display: table;
+    right: 17%;
+  }
+
+  .seperator4 {
+    height: 7px;
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccb683;
+    margin-bottom: 1em;
+  }
+
+  .it_p {
+    text-align: center;
+  }
+
+  .proc_heading {
+    border-bottom: 2px solid #64DC96;
+  }
+
+  .about_p,
+  .about_p2 {
+    width: 95%;
+  }
+
+  .about_p2 {
+    padding: 1em 1em;
+    margin-bottom: 2em;
+  }
+
+  .learn_more2 {
+    margin-bottom: 0;
+  }
+
+  .botox_section {
+    text-align: center;
+    padding: 3em 1em;
+  }
+
+  .info_box {
+    width: 100%;
+  }
+
+  .t_right {
+    text-align: center;
+  }
+
+  .phone_section {
+    color: #b79a52;
+    font-size: 17px;
+    width: 90%;
+    /* padding: 2em 0; */
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1em 0;
+  }
+
+  .pd_img {
+    padding-bottom: 1em;
+  }
+
+  .blog_info {
+    width: 100%;
+  }
+
+  .blog_img {
+    padding-top: 2em;
+  }
+
+  .blog-section {
+    padding: 1em 0 3em 0;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+
+  .sign_up {
+    width: 100%;
+  }
+
+  .newsletter {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 1em;
+  }
+
+  .navbar-brand {
+    width: 70%;
+  }
+
+  .footer_custom {
+    text-align: center;
+  }
+}
+
+/* Smartphones ----------- */
+@media only screen and (min-width : 100px) and (max-width : 480px) {
+  .bowtie-lips .br-remove {
+    display: none;
+  }
+
+.bowtie-lips .restoring-contact h2 {
+  font-size: 22px !important;
+}
+.bowtie-lips .restoring-contact h2 {
+  font-size: 20px !important;
+}
+.bowtie-lips .mt_50 {
+
+  letter-spacing: -2px;
+}
+
+.bowtie-lips .mt__60 {
+  margin-top: 0px;
+}
+
+  /* .bowtie-lips .botox-5 .graphic-5:before {
+    top: -17px;
+    right: -8px;
+    bottom: 30px;
+    left: 8px;
+}
+
+.bowtie-lips .botox-2 .graphic-2:before {
+  top: -31px;
+  right: 37px;
+  bottom: 31px;
+  min-height: 376px;
+  left: -9px;
+} */
+  .slick-dots {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .main_logo {
+    width: 135px;
+  }
+
+  .c_center {
+    text-align: center !important;
+  }
+
+  .social_links {
+    display: flex;
+  }
+
+  .social_ul {
+    margin: 0 auto !important;
+    display: flex;
+    align-items: center;
+    padding-bottom: 1em !important;
+  }
+
+  .whatsapp_link {
+    padding-left: 0;
+  }
+
+  .ageless_beauty img {
+    width: 70%;
+  }
+
+  .ageless_beauty {
+    padding: 5em 0 5em 0;
+  }
+
+  .book_an_appointment a {
+    font-size: 3.5vw;
+  }
+
+  .book_an_appointment {
+    margin-bottom: 5em;
+  }
+
+  .main-banner {
+    height: auto;
+    max-height: 100%;
+  }
+
+  .main-heading {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .it_p {
+    font-size: 2em;
+  }
+
+  .services_p {
+    width: 95%;
+  }
+
+  .services_row .row {
+    padding: 1em;
+  }
+
+  .procedure_p1,
+  .procedure_p2 {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .procedure_p2 {
+    padding-bottom: 2em;
+  }
+
+  .learn_more {
+    margin-bottom: 3em;
+  }
+
+  .bgcs {
+    text-align: center !important;
+    padding: 1em 15px;
+  }
+
+  .seperator {
+    width: 70%;
+  }
+
+  .seperator2 {
+    height: 7px;
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid #b79b52;
+    margin-bottom: 1em;
+  }
+
+  .seperator3:after {
+    content: '';
+    display: table;
+    right: 17%;
+  }
+
+  .seperator4 {
+    height: 7px;
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccb683;
+    margin-bottom: 1em;
+  }
+
+  .it_p {
+    text-align: center;
+  }
+
+  .learn_more {
+    text-align: center;
+  }
+
+  .proc_heading {
+    border-bottom: 2px solid #64DC96;
+  }
+
+  .about_p,
+  .about_p2 {
+    width: 95%;
+  }
+
+  .about_p2 {
+    padding: 1em 1em;
+    margin-bottom: 2em;
+  }
+
+  .learn_more2 {
+    margin-bottom: 0;
+  }
+
+  .botox_section {
+    text-align: center;
+    padding: 3em 1em;
+  }
+
+  .info_box {
+    width: 100%;
+  }
+
+  .t_right {
+    text-align: center;
+  }
+
+  .phone_section {
+    color: #b79a52;
+    font-size: 17px;
+    width: 90%;
+    /* padding: 2em 0; */
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1em 0;
+  }
+
+  .pd_img {
+    padding-bottom: 1em;
+  }
+
+  .blog_info {
+    width: 100%;
+  }
+
+  .blog_img {
+    padding-top: 2em;
+  }
+
+  .blog-section {
+    padding: 1em 0 3em 0;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+
+  /*Video Modal Starts*/
+  .modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+  }
+
+  .modal-body {
+    position: relative;
+    padding: 0px;
+  }
+
+  .close {
+    position: absolute;
+    right: -30px;
+    top: 0;
+    z-index: 999;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    opacity: 1;
+  }
+
+  /*Video Modal Ends*/
+  .sign_up {
+    width: 100%;
+  }
+
+  .newsletter {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 1em;
+  }
+
+  .navbar-brand {
+    width: 70%;
+  }
+
+  .footer_custom {
+    text-align: center;
+  }
+}
+
+/*Mobile Media query ends*/
+/*Media Queries Ends*/
+a {
+  transition: 0.3s all;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.view_details:hover,
+.read_more_btn:hover {
+  font-weight: bold;
+  color: #b79a52;
+  text-decoration: none;
+}
+
+.learn_more_cs:hover,
+.learn_more a:hover,
+.sign_up:hover {
+  color: #ffffff;
+  background-color: #b79a52;
+  text-decoration: none;
+}
+
+.proc_heading {
+  text-align: left;
+}
+
+.video-btn {
+  border: 0 !important;
+  padding: 0 !important;
+  background: #cfd8e1;
+  min-height: 710px;
+  width: 100%;
+}
+
+/*Social Icons Starts*/
+ul {
+  list-style: none;
+}
+
+.social_ul {
+  padding: 0;
+}
+
+.social_ul li {
+  margin: 5px 3px;
+  float: left;
+}
+
+.wp-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  vertical-align: middle;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.fa-twitter:before {
+  position: absolute;
+  top: 7px;
+  right: 6px;
+}
+
+.fa-facebook-f:before,
+.fa-facebook:before {
+  content: "\f09a";
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
+
+.fa-instagram:before {
+  position: absolute;
+  top: 7px;
+  right: 8px;
+}
+
+.fa-linkedin:before {
+  position: absolute;
+  top: 6px;
+  right: 7px;
+}
+
+/*.fa-facebook-f:before, .fa-facebook:before {
+   
+}*/
+.p_rel {
+  position: relative;
+}
+
+/*Social Icons Ends*/
+/*Services Page CSS Starts*/
+.cst_bg {
+  background-color: #fcfaf2 !important;
+  padding: 20px 0;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.tleft {
+  text-align: left;
+}
+
+.sd_col {
+  font-size: 21px;
+}
+
+.pd_btm2 {
+  padding-bottom: 2em;
+}
+
+/*Services Page CSS Ends*/
+
+@media only screen and (max-width: 1199px) {
+
+  .c__cst {
+    padding-top: 2em !important;
+  }
+
+  .main-banner.microneedling-pep-face-banner {
+
+    height: 647px;
+  }
+
+  .sig_cst h3 {
+    padding-top: 2em;
+  }
+
+  .microneedling-face .pat-1 {
+    display: none;
+  }
+
+  .microneedling-face .with-prp {
+    background-size: cover;
+  }
+
+  .jeuveau-vs-botox .difference-panel {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .jeuveau-vs-botox .difference-panel {
+    margin: 30px auto;
+  }
+
+}
+
+
+@media only screen and (max-device-width: 991px) {
+  body {
+    background-color: #fff;
+  }
+  .hero-dropdown-tog {
+    border: 1px solid white;
+    padding: 30px;
+    text-align: left;
+    left: 44px;
+    width: 310px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+  .hero_margin_bt {
+    margin-left: 10px;
+}
+  .hero-dropdown-toggle {
+    background: rgba(209, 228, 224, 0.2);
+    backdrop-filter: blur(5px);
+    border: 1px solid white;
+    padding: 30px;
+    text-align: left;
+    left: 30px;
+    width: 253px;
+    border-radius: 20px;
+    margin-left: -61px;
+}
+  .unique_hero {
+
+  }
+  .bord_hero {
+    border-radius: 25px 25px;
+    width: 160px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Source Sans Pro';
+    background-color: #11376C;
+    color: #fff;
+}
+  .border_hero {
+    border-radius: 25px 25px;
+    width: 175px;
+    padding: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Source Sans Pro';
+    padding-left: 40px;
+}
+  .bowtie-lips .unique-design {
+    margin-top: 25px;
+}
+.bowtie-lips .unique-style {
+  margin-top: 90px;
+
+
+}
+.bowtie-lips .book_appoint a {
+  background-color: #fff !important;
+  color: #000;
+ }
+ .bowtie-lips .book_appoint a:hover {
+   background-color: #a68a4a !important;
+   color: #fff;
+  }
+.bowtie-lips .lower {
+  margin-top: 0px !important;
+}
+.bowtie-lips .lower {
+  margin-top: 100px;
+
+}
+.bowtie-lips .remove-br {
+  display: none;
+}
+    .bowtie-lips .restoring-contact h3 {
+      font-size: 28px;
+    
+      }
+      .bowtie-lips .single-section {
+        margin-top: 20px;
+    }
+    .bowtie-lips .botox-5 .graphic-5 {
+      margin-bottom: 50px;
+
+    }
+   
+  .bowtie-lips .botox-3 .graphic-3 {
+    box-shadow: -27px 50px 0 -11px rgb(241 235 220 / 80%);
+    border-radius: 110px 0 110px 0;
+  }
+
+  .bowtie-lips .botox-4 .graphic-4 {
+    box-shadow: 15px 36px rgb(241 235 220 / 80%);
+    border-radius: 105px 0 105px 0;
+    z-index: 2;
+    margin-bottom: 35px;
+
+  }
+
+  .bowtie-lips .botox-2 .graphic-2 {
+    box-shadow: 19px 30px 0px 0px rgb(241 235 220 / 80%);
+
+    border-radius: 100px 0 100px 0;
+  }
+
+  .bowtie-lips .botox-2 .graphic-2:before {
+    bottom: 25px;
+    right: 28px;
+
+    top: -20px;
+    left: -16px;
+
+  }
+
+  .bowtie-lips .mt-25 {
+    margin-top: 20px;
+  }
+
+  .bowtie-lips .what-are-crows-feet {
+    margin-top: 50px;
+  }
+
+  .bowtie-lips .sessions__sec {
+    /* margin-top: 115px; */
+    padding: 60px 0;
+  }
+
+  /* .bowtie-lips .restoring-contact .signature {
+    padding: 95px 13px 30px 48px;
+
+  } */
+
+  .bowtie-lips .master-column-header {
+    min-height: 400px;
+  }
+
+  .bowtie-lips .upper_lip_margin {
+    margin-top: 30px !important;
+  }
+
+  .bowtie-lips .mt__70 {
+    margin-top: 82px;
+
+  }
+
+  .sig_cst h3 {
+    padding-top: 1em !important;
+  }
+
+  .restoring-contact.c__bg .signature {
+    width: 100% !important;
+
+  }
+
+  .restoring-contact.c__bg .signature {
+    width: 80%;
+    text-align: center;
+    padding: 60px 0;
+    margin: 0 auto;
+    min-width: 100%;
+
+    background: rgba(0, 0, 0, 0.5);
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .restoring-contact.c__bg {
+    min-height: 400px;
+    background-size: cover !important;
+    display: table;
+    margin-top: 40px !important;
+    padding: 0;
+    color: #fff;
+    background-position: bottom left;
+
+  }
+
+  .bowtie-lips .restoring-contact h2 {
+    color: #fff;
+    font-size: 22px;
+  }
+  .bowtie-lips .restoring-contact .signature p.p2 {
+    color: #fff;
+  }
+  .p2.c__p2 {
+    margin: 0 auto !important;
+    margin-top: 25px !important;
+    
+  }
+
+  .c__bg .book_an_appointment a {
+    margin: 0 auto !important;
+
+  }
+
+  .restoring-contact.c__bg .signature {
+    width: 100% !important;
+
+  }
+
+  .main_logo {
+    width: 150px;
+  }
+
+  .top-mobile-call {
+    display: block !important
+  }
+
+  .top-mobile-call a {
+    font-size: 23px;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 72px;
+
+  }
+
+  .top-mobile-call a .fa {}
+
+  .mobile-social {
+    margin-bottom: 14px;
+    display: block !important;
+  }
+
+  .mobile-social ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  .mobile-social ul li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 8px;
+    padding: 0;
+  }
+
+  .mobile-social ul li a {
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .mobile-social ul li a .fa {
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .mobile-social ul li a .fa.fa-phone {
+    position: relative;
+    top: 3.2px;
+  }
+
+  .main-banner .top-socia-row {
+    display: none;
+  }
+
+  .main-banner {
+    padding-top: 15px;
+    height: auto;
+
+  }
+
+  .main-banner.microneedling-pep-face-banner {
+    height: 530px;
+  }
+
+  /* mobile nav */
+  .navbar-collapse {
+    background: #fff;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 85px;
+    z-index: 2;
+  }
+
+  a.nav-link {
+    color: #333 !important;
+  }
+
+  .active {
+    border-bottom: 1px solid #ccc !important;
+  }
+
+  .active a.nav-link {
+    color: #b79a52 !important;
+    font-weight: bold;
+  }
+
+  ul.navbar-nav {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .navbar-dark .navbar-toggler {
+    border: 0;
+  }
+
+  .navbar-dark .navbar-toggler:focus {
+    background: none;
+    outline: 0;
+  }
+
+  .navbar-dark .navbar-toggler span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 6px auto;
+    background: #fff;
+    transition: all .6s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+  }
+
+  .navbar-dark .navbar-toggler:hover span,
+  .navbar-dark .navbar-toggler:focus span {
+    background: #ccc;
+  }
+
+  /* rotate first span */
+  .navbar-dark .navbar-toggler[aria-expanded="true"] span:first-of-type {
+    transform: rotate(45deg) translate(6px, 6px);
+  }
+
+  /* hide second span */
+  .navbar-dark .navbar-toggler[aria-expanded="true"] span:nth-of-type(2) {
+    opacity: 0;
+  }
+
+  /* rotate third span */
+  .navbar-dark .navbar-toggler[aria-expanded="true"] span:last-of-type {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  .navbar-dark .navbar-toggler[aria-expanded="false"] span {
+    transform: none;
+    opacity: 1;
+  }
+
+  .navbar-toggler {
+    padding: 0;
+    margin-top: -14px;
+  }
+
+  /* mobile nav end */
+
+  .procedure_section h2,
+  .procedure_section p {
+    text-align: center;
+  }
+
+  .procedure_section .learn_more a {
+    margin: 25px auto;
+  }
+
+  .procedure_p1 {
+    margin-top: 20px;
+  }
+
+  .procedure_p1,
+  .procedure_p2 {
+    text-align: center !important;
+    margin: 20px auto 0;
+  }
+
+  .procedure_section .bgcs {
+    padding-left: 15px;
+  }
+
+  .procedure_section .seperator2 {
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  .brow-lift .with-prp,
+  .brow-lift .before-after-result {
+    padding: 60px 0;
+  }
+
+  .bowtie-lips-banner .banner_info h1 {
+    font-size: 41px;
+  }
+
+  .bowtie-lips-banner .banner_info h1 small {
+    font-size: 22px;
+  }
+
+  .bowtie-lips .terms-box {
+    padding: 50px 0;
+  }
+
+  .bowtie-lips .terms-box .terms-box-content {
+    padding: 40px;
+  }
+
+  .bowtie-lips-signature .bg {
+    height: auto;
+    margin-bottom: 0px !important;
+  }
+
+  .microneedling-face .restoring__section {
+    margin-top: 25px !important;
+    padding: 32px 0 !important;
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  .microneedling-face .restoring__section img {
+    position: inherit;
+    top: 0;
+    bottom: 0;
+  }
+
+  .jeuveau-vs-botox .difference-panel .diff-box {
+    min-height: 455px;
+  }
+
+  .diff-box p {
+    font-size: 20px;
+  }
+
+  .jeaveau-newtox-page .restoring__section .newtox-getintouch {
+    padding: 40px;
+    max-width: 90%;
+    flex: 0 0 90%;
+  }
+
+  .jeaveau-newtox-page .restoring__section .newtox-getintouch img {
+    margin-top: 0;
+  }
+
+  .meet-the-doc .desc {
+    margin: 20px auto 0;
+    text-align: center;
+  }
+
+  .meet-the-doc .learn_more {
+    text-align: center;
+  }
+
+  ul.hours li span {
+    margin-right: 10px;
+  }
+
+  .br-mobile {
+    display: none
+  }
+
+  .navbar-nav .nav-item {
+    font-size: 14px;
+    padding: 0.5em 1em;
+    border-bottom: 1px solid #ccc;
+  }
+
+  ul.style-1 li a {
+    font-size: 14px;
+  }
+
+  .cta-sec a {
+    font-size: 16px;
+  }
+
+  figure.effect-lily ul.style-1 {
+    display: block;
+  }
+
+  figure.effect-lily figcaption>div {
+    height: 100%;
+  }
+
+  .other-treatments figure.effect-lily figcaption>div,
+  .cta-sec figure.effect-lily figcaption>div {
+    height: 40%;
+  }
+
+  .microneedling-hair figure.effect-lily figcaption>div {
+    height: 75%;
+  }
+
+  .graphic-5 img {
+    margin-top: 0;
+  }
+}
+
+
+@media only screen and (min-device-width: 768px) {
+
+  .desktop-hidden {
+    display: none !important;
+  }
+}
+
+
+
+@media only screen and (max-device-width: 1024px) {
+
+  .microneedling-pep-face .restoring-contact {
+    min-height: auto;
+
+  }
+
+  .microneedling-pep-face .restoring-contact .p2 {
+
+    margin: 35px 30px 2em 30px !important;
+  }
+
+  .sig_cst h3 {
+    padding-top: 0;
+  }
+
+  .bowtie-lips .restoring-contact {
+    background-size: cover;
+  }
+
+  .c__bg .book_an_appointment a {
+    margin: 0 auto !important;
+  }
+
+  /* .p2.c__p2 {
+    margin: 0 auto !important;
+    margin-top: 40px !important;
+  } */
+
+
+
+  /* .bowtie-lips .restoring-contact h3 {
+    margin: 0 0 30px 0;
+    padding: 55px 0 0 0 !important;
+
+  } */
+
+
+
+  .microneedling-hair .botox-5 .graphic-5 {
+    margin-bottom: 0;
+  }
+
+  .microneedling-hair .with-prp {
+    margin-top: 50px;
+    padding: 50px 0;
+  }
+
+  .microneedling-hair .pat-2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+
+  .bowtie-lips-banner {
+    height: auto;
+    background-attachment: scroll;
+  }
+  .bowtie-lips .botox-1 .graphic-1 {
+    margin-bottom: 60px;
+
+  }
+  .bowtie-lips .mt__70 {
+    margin-top: 65px;
+}
+  .bowtie-lips .mt_50 {
+    margin-top: 0px;
+}
+  .bowtie-lips .botox-1 .graphic-1 {
+    box-shadow: -15px -35px rgb(241 235 220 / 80%);
+
+  }
+
+  
+  .bowtie-lips .margin-btn {
+    margin-left: 0px;
+}
+  .bowtie-lips .botox-1 .graphic-1 {
+    box-shadow: -18px -48px 0 -10px rgb(241 235 220 / 80%);
+  }
+  .microneedling-pep-face .botox-4 .graphic-4 {
+    margin-bottom: 3em;
+  }
+  .bowtie-lips .botox-1 .graphic-1:before {
+    top: 56px;
+    right: -9px;
+    bottom: -32px;
+    left: 22px;
+    min-height: 389px;
+  }
+  .bowtie-lips .single-section {
+    margin-top: 20px;
+
+  }
+  .bowtie-lips .restoring-contact h3 {
+    font-size: 25px;
+}
+  .bowtie-lips .restoring-contact h2 {
+    color: #fff;
+    font-size: 20px;
+}
+  .bowtie-lips .botox-4 .graphic-4 {
+    box-shadow: 23px 33px rgb(241 235 220 / 80%);
+    margin-top: 56px;
+
+  }
+
+  .bowtie-lips .what-are-crows-feet {
+    margin-top: 10px;
+  }
+
+  .bowtie-lips .sessions__sec {
+
+    padding: 15px 0;
+  }
+
+  .bowtie-lips .mt-25 {
+    margin-top: 30px;
+  }
+
+  .bowtie-lips .botox-3 .graphic-3 {
+    margin-bottom: 15px;
+
+
+  }
+
+  .mt__5 {
+    margin-top: 5em !important;
+  }
+
+  .mb__5 {
+    margin-bottom: 5em !important;
+  }
+
+  .microneedling-pep-face .with-prp1 {
+
+    padding: 3em 0;
+
+  }
+
+  ul.style-2 li::marker {
+    content: '';
+    color: transparent;
+  }
+
+  .microneedling-pep-face .botox-3 .graphic-3 {
+    margin-top: 2em;
+  }
+
+  .restoring-contact.c__bg {
+    min-height: auto !important;
+  }
+
+  .microneedling-pep-face .restoring-contact .signature p.p2 {
+    margin: 35px 30px 0px 30px;
+  }
+
+
+
+  .bowtie-lips-banner .book_an_appointment a {
+    margin-top: 20px !important;
+  }
+
+  .mt__0 {
+    margin-top: 0 !important;
+  }
+
+  .mt__20 {
+    margin-top: 20px !important;
+  }
+
+  .mt__30 {
+    margin-top: 30px !important;
+  }
+
+  /* .mt__2 {
+    margin-top: 2em !important;
+  } */
+
+  .mb__0 {
+    margin-bottom: 0 !important;
+  }
+
+  .c__center {
+    text-align: center !important;
+  }
+
+  .mb__center p,
+  .mb__center h1,
+  .mb__center h2,
+  .mb__center h3,
+  .mb__center h4,
+  .mb__center h5,
+  .mb__center h6,
+  .mb__center ul {
+    text-align: center !important;
+  }
+
+  .btn__wdth {
+    max-width: 370px;
+    display: block !important;
+    margin: 0 auto !important;
+  }
+
+  .bowtie-lips .terms-box .terms-box-content {
+    min-height: auto !important;
+  }
+
+
+  .bowtie-lips .botox-2 .graphic-2:before {
+    top: -36px;
+    right: 37px;
+    bottom: 31px;
+    min-height: 420px;
+    /* left: -8px; */
+
+  }
+
+  .bowtie-lips .botox-3 .graphic-3:before {
+    bottom: -25px;
+    top: 3px;
+  }
+
+  .bowtie-lips .botox-3 .graphic-3 {
+    box-shadow: 21px -37px rgb(241 235 220 / 80%);
+    margin-top: 22px;
+
+  }
+  .bowtie-lips .unique-design {
+    margin-top: 50px;
+
+}
+.bowtie-lips .unique-style {
+  margin-top: 90px;
+
+}
+  .bowtie-lips .botox-5 .graphic-5:before {
+
+    bottom: 20px;
+    top: 24px;
+
+  }
+
+  .bowtie-lips .restoring-contact {
+  min-height: 400px;
+    background-size: 100%;
+    border-radius: 115px 0px 123px 0px;
+    margin-bottom: 100px !important;
+    background-position: bottom left;
+padding: 0;
+  }
+
+  .bowtie-lips .mt-20 {
+    margin-top: 40px;
+  }
+
+  .sig_cst h3 {
+    padding-top: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .sig_cst {
+    /* padding: 0px !important; */
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+  }
+
+  /* .sig_cst .mb__10 {
+    margin-bottom: 20px !important;
+} */
+
+  .sig_cst .c__p2 {
+    margin-right: 0 !important;
+    margin-top: 25px !important;
+  }
+
+  .middle-piece-header.f__b {
+    font-weight: bold;
+  }
+
+  .bowtie-lips .restoring-contact {
+    /* margin-bottom: 3em !important; */
+    background-size: cover;
+  }
+
+
+  .details-card {
+    padding: 0;
+  }
+
+  .card-desc {
+    min-height: auto;
+  }
+
+  .card-desc h3 {
+    min-height: auto;
+  }
+
+  .contact-page .paragraph {
+    padding-left: 15px;
+  }
+
+  .contact-page {
+    margin: 40px 0 0;
+  }
+
+  .contact-map iframe {
+    height: 250px;
+  }
+
+  .contact-page .book_an_appointment {
+    margin: 25px 0 50px 0;
+  }
+
+  .contact-page ul.hours {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .main-banner {
+    background-attachment: scroll;
+  }
+
+  .main-banner.microneedling-pep-face-banner {
+    height: auto;
+  }
+
+  .line-with-love,
+  .copyright {
+    margin-bottom: 50px;
+  }
+
+  ul.mobile-chat {
+    display: inline-block !important;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    z-index: 2;
+  }
+
+  ul.mobile-chat li {
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    background: #fff;
+    width: 33%;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #b79a52 !important;
+    margin: 0 5px;
+  }
+
+  ul.mobile-chat li a {
+    font-size: 16px;
+    color: #b79a52 !important;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 500;
+  }
+
+  .meet-the-doc .learn_more a {
+    color: #000;
+    margin-right: 0;
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    display: block;
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .top-divider .s1 {
+    font-size: 18px !important;
+  }
+
+  .footer_heading,
+  .footer_heading a {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .meet-the-doc h2,
+  .meet-the-doc h3 {
+    text-align: center;
+  }
+
+  .learn_more a,
+  .book_an_appointment a,
+  a.view-all {
+    max-width: 350px !important;
+    width: 100% !important;
+    font-size: 18px !important;
+    padding: 14px !important;
+  }
+
+  .meet-the-doc img {
+    max-width: 35%
+  }
+
+  .meet-the-doc .dr_image {
+    text-align: center;
+  }
+
+  .navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    /* background-color: #fbf5e7 !important; */
+    left: 0;
+  }
+
+
+
+
+  .main-heading {
+    padding-top: 40px;
+  }
+
+  .welcome-sec h2 {
+    font-size: 24px;
+  }
+
+  .welcome-sec h3 {
+    font-size: 20px;
+    margin: 15px auto;
+  }
+
+  p,
+  ul.style-2 li {
+    font-size: 16px !important;
+  }
+
+  .grt-cookie p {
+    font-size: 14px !important;
+  }
+
+  .master-column-header {
+    min-height: 400px;
+  }
+
+  .navbar-collapse {
+    top: 65px;
+  }
+
+  .grt-cookie {
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .grt-cookie-button {
+    margin: 0 auto;
+  }
+
+  .microneedling-w-pep-hair .what-are-crows-feet {
+    margin-top: 0;
+  }
+
+  .microneedling-w-pep-hair .botox-1 .graphic-1 {
+    margin-bottom: 0;
+  }
+
+  .microneedling-w-pep-hair .what-are-crows-feet p {
+    margin-bottom: 30px;
+  }
+
+  .microneedling-w-pep-hair .botox-3 .graphic-3,
+  .microneedling-w-pep-hair .botox-5 .graphic-5 {
+    margin-bottom: 70px;
+  }
+
+  .microneedling-w-pep-hair .before-after-result {
+    padding: 50px 0 60px;
+    margin-top: 50px;
+  }
+
+  .microneedling-w-pep-hair .with-prp {
+    padding: 50px 0;
+  }
+
+  .microneedling-w-pep-hair .with-prp .learn_more {
+    margin-bottom: 0;
+  }
+
+  .microneedling-w-pep-hair .botox-4 .graphic-4 {
+    margin-bottom: 50px;
+  }
+
+  .microneedling-w-pep-hair .terms-box {
+    padding: 50px 0;
+  }
+
+
+  .microneedling-w-pep-hair .bg {
+    background-size: cover;
+    background-position: right;
+    border-radius: 80px 0 80px 0;
+  }
+
+  .brow-lift .botox-2 .graphic-2 {
+    margin-bottom: 15px;
+  }
+
+  .brow-lift .with-prp .learn_more {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+
+  .brow-lift .botox-5 .graphic-5 {
+    margin-bottom: 80px;
+  }
+
+  .brow-lift .before-after-result {
+    margin-top: 60px;
+  }
+
+  .brow-lift .botox-3 .graphic-3 {
+    margin-bottom: 60px;
+  }
+
+  .brow-lift .hassle-free {
+    margin-bottom: 50px;
+  }
+
+  .brow-lift-banner .banner_info h1 {
+    font-size: 34px;
+  }
+
+  .bowtie-lips .with-prp {
+    padding: 25px 0;
+
+  }
+
+  .bowtie-lips .botox-5 .graphic-5 {
+    margin-bottom: 5px;
+    box-shadow: -25px -38px 0 -4px rgb(241 235 220 / 80%);
+    margin-top: 22px;
+
+  }
+
+  .bowtie-lips .botox-treatment {
+    margin-top: 20px;
+
+  }
+
+  .bowtie-lips .with-prp {
+    margin-top: 65px;
+  }
+
+  .bowtie-lips .before-after-result {
+    padding: 50px 0;
+    min-height: auto;
+  }
+
+  .bowtie-lips .before-after-result h3 {
+    margin-bottom: 30px;
+  }
+
+  .bowtie-lips .take-after .item {
+    margin: 0 auto 35px;
+    min-height: auto;
+  }
+
+  .bowtie-lips .expect-during .learn_more {
+    margin-top: 20px;
+  }
+
+  .bowtie-lips-signature .bg {
+    height: auto;
+    background-size: cover;
+    margin-bottom: 30px !important;
+    border-radius: 100px 0 100px 0;
+  }
+
+
+
+
+  .bowtie-lips-signature .bg .signature p {
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    line-height: normal;
+    margin: 0 auto;
+    max-width: 500px;
+    border-radius: 50px 0 50px 0;
+    box-sizing: border-box;
+  }
+
+  .bowtie-lips .botox-2 .graphic-2 {
+    margin-bottom: 30px;
+  }
+
+  .bowtie-lips .with-prp .learn_more {
+    margin-bottom: 0;
+  }
+
+  .outline-left,
+  .outline-right {
+    display: none;
+  }
+
+  .microneedling-hair .terms-box {
+    padding: 50px 0;
+  }
+
+  .microneedling-hair .terms-box .terms-box-content {
+    padding: 50px 25px;
+  }
+
+  .microneedling-hair .botox-5 .graphic-5 {
+    box-shadow: -20px -30px 0 0 rgb(241 235 220 / 80%);
+  }
+
+  .microneedling-hair .botox-5 .graphic-5:before {
+    right: -25px;
+  }
+
+  .microneedling-hair .what-are-crows-feet {
+    margin-top: 0;
+  }
+
+  .microneedling-hair-signature .bg .signature p {
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    line-height: normal;
+    margin: 0 auto;
+    max-width: 500px;
+    border-radius: 50px 0 50px 0;
+    box-sizing: border-box;
+  }
+
+  .microneedling-hair-signature .bg {
+    height: 475px;
+    padding: 0;
+    margin-bottom: 50px !important;
+    background-size: auto;
+    border-radius: 120px 0 120px 0;
+  }
+
+  .microneedling-hair-signature .bg .signature {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 30px;
+    float: none;
+    width: 100%;
+  }
+
+  .microneedling-hair .take-after .item {
+    margin: 25px auto;
+    min-height: auto;
+    padding: 60px 35px;
+  }
+
+  .botox-6 h3 {
+    padding-top: 10px;
+  }
+
+  .microneedling-face .botox-3 {
+    margin-top: 0;
+  }
+
+  .microneedling-face .what-are-crows-feet {
+    margin-top: 0;
+  }
+
+  .microneedling-face .botox-1 .graphic-1 {
+    margin-bottom: 50px;
+  }
+
+  .microneedling-face-banner .banner_info h1,
+  .microneedling-hair-banner .banner_info h1,
+  .microneedling-w-pep-hair-banner .banner_info h1 {
+    font-size: 34px;
+  }
+
+  .microneedling-face .with-prp {
+    margin-top: 15px;
+    padding: 40px 0;
+  }
+
+  .microneedling-face .with-prp .learn_more {
+    margin-bottom: 15px;
+  }
+
+  .microneedling-face .botox-treatment {
+    margin-top: 40px;
+  }
+
+  .microneedling-face .botox-5 .graphic-5,
+  .microneedling-face .botox-6 .graphic-6 {
+    margin-bottom: 70px;
+  }
+
+  .microneedling-face .botox-4 .graphic-4 {
+    margin-bottom: 40px;
+  }
+
+  .microneedling-face ol.numeric-style {
+    margin-bottom: 40px;
+  }
+
+  .botox-6 {
+    margin-top: 0;
+  }
+
+  .jeuveau-vs-botox .difference-panel {
+    margin: 0px auto;
+  }
+
+  .jeaveau-newtox-page .jeuveau-vs-botox .learn_more {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
+
+  .jeaveau-newtox-page .jeuveau-vs-botox {
+    margin-top: 25px;
+    padding: 35px 0;
+  }
+
+  .expect-during .learn_more {
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+
+  .jeaveau-newtox-page .banner_info h1 {
+    font-size: 34px;
+    letter-spacing: 2px;
+  }
+
+  .jeaveau-newtox-page .restoring__section {
+    padding: 60px 0 !important;
+  }
+
+  .top-jeuveau-treatment {
+    background-color: #64DC96;
+    padding: 35px 0;
+    margin-top: 10px !important;
+  }
+
+  .top-jeuveau-treatment h3 {
+    margin: 0 !important;
+    padding: 0 10px;
+  }
+
+  .jeaveau-newtox-page .terms-box {
+    padding: 45px 0;
+  }
+
+  .restoring__section .newtox-getintouch p {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 0;
+  }
+
+  .crows-feet .botox-treatment {
+    margin-top: 40px;
+  }
+
+  .restoring__section .newtox-getintouch .book_an_appointment a {
+    margin-bottom: 20px;
+    width: 300px;
+  }
+
+  .crows-feet .rid-of-crows-feet {
+    background-color: #64DC96;
+    margin-top: 0;
+    padding: 50px 0 10px;
+  }
+
+  .crows-feet .banner_info h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+
+  .crows-feet .terms-box {
+    padding: 50px 0;
+  }
+
+  .crows-feet .terms-box .terms-box-content {
+    min-height: 300px;
+  }
+
+  .crows-feet .restoring__section {
+    padding: 50px 0 !important;
+  }
+
+  ul.featured-list li {
+    margin: 20px auto !important;
+    width: 50%;
+  }
+
+  ul.featured-list li a {
+    font-size: 24px;
+  }
+
+  .featured-item {
+    margin-bottom: 50px;
+  }
+
+  .mobile-hidden {
+    display: none !important;
+  }
+
+
+  a.view-all {
+    font-size: 16px;
+    color: #fff;
+    background-color: #b79a52;
+    width: 250px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+  }
+
+  ul.featured-list {
+    display: flex;
+  }
+
+
+
+  ul.featured-list li:last-child {
+    margin: 0 auto 30px;
+    text-align: center;
+    width: 100%;
+  }
+
+  ul.featured-list li a.view-all {
+    font-size: 16px;
+    color: #fff;
+    background-color: #b79a52;
+    width: 250px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+  }
+
+  .slick-prev,
+  .slick-next {
+    top: 25% !important;
+  }
+
+  .testimonials_section p.client {
+    margin: 0;
+  }
+
+  .restoring__section {
+    padding: 20px 0 !important;
+  }
+
+  .home-banner .banner_info h1 span {
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: initial;
+  }
+
+  .home-banner .banner_info h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+
+  ul.hours {
+    border-right: 0;
+  }
+
+  .footer-upper img {
+    margin-bottom: 5px;
+    max-width: 135px;
+  }
+
+  .two-col {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+  }
+
+  ul.services_ul {
+    margin-bottom: 15px;
+  }
+
+  .restoring__section h3 {
+    margin-top: 4% !important;
+    font-size: 33px !important;
+  }
+
+  .banner_info h1 {
+
+    font-size: 40px;
+
+  }
+
+  .services-banner .banner_info h1 {
+
+    font-size: 36px;
+    margin: 47px 0 0 0;
+    letter-spacing: 2px;
+
+  }
+
+  .patteren-1 {
+    display: none;
+  }
+
+  .graphic-1,
+  .graphic-2,
+  .graphic-3,
+  .graphic-4,
+  .graphic-5 {
+    box-shadow: 50px -50px rgba(241, 235, 220, 0.8);
+    border-radius: 80px 0 80px 0;
+    z-index: 2;
+    margin-bottom: 120px;
+  }
+
+  .graphic-1:before,
+  .graphic-2:before,
+  .graphic-3:before,
+  .graphic-4:before,
+  .graphic-5:before {
+    top: -27px;
+    right: -90px;
+    bottom: -30px;
+    left: 65px;
+  }
+
+  .graphic-2:before {
+    top: -27px;
+    right: -90px;
+    bottom: -30px;
+    left: 65px;
+  }
+
+  figure.effect-lily figcaption>div {
+    height: 75%;
+  }
+
+  .single-page {
+    margin-top: 40px;
+  }
+
+  .botox-made {
+    padding-bottom: 50px;
+    text-align: left !important;
+  }
+
+  /*.single-page h3 {
+	  font-size: 24px;
+	  margin: 0 0 20px 0;
+	}*/
+  .botox-result h3 {
+    margin: 25px 0 20px 0;
+  }
+
+  .botox-result p {
+    margin: 0 0 30px 0;
+  }
+
+  .terms-box {
+    padding: 50px 0;
+  }
+
+  .terms-box-content {
+    padding: 50px 25px 0;
+    min-height: initial;
+  }
+
+  .terms-box-content h3 {
+    margin: 0 0 20px 0;
+  }
+
+  .terms-box-content p {
+    margin: 0 0 30px 0;
+  }
+
+  .botox-result {
+    padding: 50px 0 0;
+  }
+
+  .botox-2,
+  .botox-3,
+  .botox-4,
+  .botox-5 {
+    margin-bottom: 0;
+  }
+
+
+}
+
+@media only screen and (max-device-width: 575px) {
+
+  .btn-row a {
+    display: inline-block;
+    margin: 5px 0;
+  }
+  .bowtie-lips .restoring-contact .signature p.p2 {
+    color: #fff;
+    margin-top: 35px !important;
+}
+.bowtie-lips .book_appoint a {
+  background-color: #fff !important;
+  color: #000;
+  min-width: 50%;
+ }
+ .bowtie-lips .book_appoint a:hover {
+   background-color: #a68a4a !important;
+   color: #fff;
+  }
+  /* .bowtie-lips .mt__70 {
+    margin-top: 30px;
+
+  } */
+
+  .services-banner .banner_info h1 {
+    font-size: 26px;
+  }
+
+  .single-page p {
+
+    margin: 0 0 20px 0;
+  }
+
+  .single-page h3 {
+
+    margin: 0 0 20px 0;
+  }
+
+  .bowtie-lips .with-prp {
+    margin-top: 55px;
+    padding: 20px 0;
+
+  }
+
+  .bowtie-lips .single-section {
+    /* margin-top: 30px; */
+  }
+
+  .main-service-page .welcome-sec .mt-5 {
+    margin-top: 20px !important;
+  }
+
+  .main-service-page .restoring__section {
+    margin-top: 10px !important;
+  }
+
+  .main-service {
+    margin-top: 85px;
+    position: relative;
+  }
+
+  .line-with-love,
+  .copyright {
+    margin-bottom: 40px;
+  }
+
+  .procedure_section .bgcs {
+    padding: 30px 15px 0px 15px !important;
+  }
+
+  .footer_custom {
+    padding: 0 0 45px;
+  }
+
+  .footer-upper {
+    padding-top: 50px;
+  }
+
+  .line-with-love,
+  .copyright {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .learn_more a,
+  .book_an_appointment a,
+  a.view-all {
+    max-width: 350px !important;
+    width: 100% !important;
+    font-size: 16px !important;
+    padding: 10px !important;
+  }
+
+  .slider_img {
+    height: 200px;
+  }
+
+  .right-bg-1,
+  .left-bg-1 {
+    display: none
+  }
+
+  .welcome-sec p.signature {
+    margin: 20px 0 0 0;
+  }
+
+  .home-banner .banner_info h1 {
+    font-size: 26px;
+  }
+
+  .mobile-overlay {
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    line-height: normal;
+    margin: 0 auto 25px;
+    max-width: 500px;
+    border-radius: 50px 0 50px 0;
+    box-sizing: border-box;
+  }
+
+  .microneedling-w-pep-hair .bg .signature h3 {
+    font-size: 30px;
+  }
+
+  .microneedling-w-pep-hair .bg .signature p {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    margin: 5px 0;
+  }
+
+  .bowtie-lips-banner .banner_info h1 {
+    font-size: 30px;
+  }
+
+  .bowtie-lips-banner .banner_info h1 small {
+    font-size: 18px;
+  }
+
+  .microneedling-hair-signature .bg .signature p {
+    font-size: 24px;
+  }
+
+  .microneedling-face-banner .banner_info h1 {
+    font-size: 28px;
+  }
+
+  .microneedling-face .book_an_appointment a {
+    width: 300px;
+  }
+
+  .microneedling-face .restoring__section {
+    margin-top: 0px !important;
+    padding: 20px 0 !important;
+  }
+
+  .microneedling-face .restoring__section a {
+    border: 2px solid #fff;
+    background-color: #fff;
+    font-size: 15px;
+    color: #3b3830;
+    font-weight: 500;
+    width: 220px;
+    float: left;
+    margin-top: 20px;
+  }
+
+  .jeuveau-vs-botox .difference-panel .diff-box {
+    min-height: 275px;
+    padding: 40px;
+  }
+
+  .jeaveau-newtox-page .banner_info h1 {
+    font-size: 28px !important;
+    letter-spacing: 2px;
+  }
+
+  .crows-feet .rid-of-crows-feet {
+    background-color: #64DC96;
+    margin-top: 25px;
+    padding: 25px 0 0;
+  }
+
+  .single-page h3 {
+    font-size: 24px !important;
+    margin: 0 0 20px 0;
+  }
+
+  .book_an_appointment {
+    margin-bottom: 0;
+  }
+  .what-are-crows-feet .book_an_appointment {
+    margin-top: 35px !important;
+  }
+  .crows-feet .book_an_appointment a {
+    border: 2px solid #fff;
+    width: 300px;
+    padding: 10px;
+    font-size: 18px;
+    margin: 25px auto 15px;
+  }
+
+  .crows-feet-banner .master-column-header {
+    min-height: 300px;
+  }
+
+  .crows-feet .banner_info h1 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-top: 81px;
+  }
+
+  .featured-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 10px !important;
+  }
+
+  .featured-sec h2 {
+    font-size: 24px !important;
+  }
+
+  .procedure_section h2 {
+    font-size: 24px;
+    padding-top: 10px;
+  }
+
+  .meet-the-doc h3,
+  .meet-the-doc h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .testimonials_section p.client {
+    margin: 0;
+  }
+
+  .insta-feed {
+    margin-top: 0;
+  }
+
+  .footer_ul li {
+    font-size: 16px;
+    margin: 0 10px;
+  }
+
+  .main-service-page .pat-2 {
+    display: none;
+  }
+
+  .botox-result img {
+    margin-bottom: 25px;
+  }
+
+  .restoring__section p {
+    font-size: 18px;
+    margin-bottom: 18px;
+  }
+
+
+
+
+
+
+}
+
+@media only screen and (min-device-width : 576px) and (max-device-width : 767px) {
+  .diff-box p.large {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+
+  .diff-box p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+
+  /* .bowtie-lips .restoring-contact {
+  
+    border-radius: 120px 0px 140px 0px;
+} */
+  .bowtie-lips .br-remove {
+    display: none;
+  }
+
+  .bowtie-lips .botox-treatment {
+    margin-top: 15px;
+  }
+  .bowtie-lips .mt__70 {
+    margin-top: 40px;
+}
+  .line-with-love,
+  .copyright {
+    margin-bottom: 30px;
+  }
+  .bowtie-lips .mt__30 {
+    letter-spacing: 0px;
+}
+  .bowtie-lips .botox-5 .graphic-5 {
+    margin-bottom: 12px;
+    box-shadow: -13px -38px 0 -4px rgb(241 235 220 / 80%);
+  }
+
+  .bowtie-lips .botox-5 .graphic-5:before {
+    right: -9px;
+    bottom: -19px;
+    top: 30px;
+    left: 20px;
+
+    min-height: 372px;
+
+  }
+
+  .bowtie-lips .botox-3 .graphic-3:before {
+
+    left: -9px;
+
+    top: -17px;
+    right: 10px;
+    min-height: 375px;
+  }
+
+  .bowtie-lips .botox-4 .graphic-4:before {
+    top: -42px;
+
+    right: 27px;
+    bottom: -18px;
+    left: -10px;
+    min-height: 400px;
+  }
+
+  .bowtie-lips .botox-2 .graphic-2:before {
+
+    left: -8px;
+    right: 10px;
+    top: -22px;
+    bottom: 10px;
+    min-height: 400px;
+
+  }
+
+  .bowtie-lips .botox-2 .graphic-2 {
+    box-shadow: 8px 30px 0px 0px rgb(241 235 220 / 80%);
+    border-radius: 100px 0 100px 0;
+  }
+
+  .bowtie-lips .botox-3 .graphic-3 {
+    box-shadow: 2px -28px 0 7px rgb(241 235 220 / 80%);
+    margin-bottom: 20px;
+
+  }
+
+
+  .bowtie-lips .single-section {
+ 
+    padding: 0 10px;
+  }
+  .bowtie-lips .restoring-contact {
+    margin-bottom: 75px !important;
+
+  }
+  .bowtie-lips .botox-4 .graphic-4 {
+    box-shadow: 9px 33px rgb(241 235 220 / 80%);
+    margin-top: 65px;
+
+  }
+
+  .home-banner .banner_info h1 {
+    font-size: 22px;
+  }
+
+  .home-banner .banner_info h1 span {
+    font-size: 12px !important;
+    line-height: normal !important;
+    letter-spacing: normal !important;
+  }
+
+  .line-with-love,
+  .copyright {
+    text-align: center;
+    font-size: 12px !important;
+  }
+
+  .footer_ul li {
+    font-size: 14px;
+    margin: 0 8px;
+  }
+
+  .microneedling-face .restoring__section a {
+    font-size: 14px;
+    width: 185px;
+  }
+
+  .home-banner .banner_info h1 span {
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+
+
+  .featured-sec h2 {
+    font-size: 28px;
+  }
+
+  ul.featured-list li:last-child {
+    margin: 10px auto;
+  }
+
+  ul.featured-list li a {
+    font-size: 16px;
+    text-decoration: underline;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  #first {
+    order: 1;
+  }
+
+  #second {
+    order: 2;
+  }
+
+  #third {
+    order: 3;
+  }
+
+  .featured-sec h2 {
+    margin-top: 0;
+  }
+
+  ul.featured-list li {
+    margin: 30px auto;
+  }
+
+  div.ie-container,
+  div.ie-container-2 {
+    top: 0;
+  }
+
+  div.ie-container-2:before {
+    top: 20px;
+    bottom: -20px;
+  }
+
+  .featured-sec {
+    background-color: #fbf8f0;
+    padding: 70px 0;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .seperator2 {
+    text-align: left;
+    margin: 0;
+  }
+
+  .procedure_p1 {
+    margin-top: 20px;
+  }
+
+  .learn_more {
+    text-align: left;
+  }
+
+
+
+  .meet-the-doc h3 {
+    margin: 30px 0 25px 0;
+  }
+
+  .meet-the-doc p.desc {
+    margin: 25px 0;
+    text-align: center;
+  }
+
+  .testimonials_section {
+    margin-top: 0px;
+  }
+
+  .slick-next {
+    right: 25px !important;
+  }
+
+  .slick-prev {
+    left: 25px !important;
+  }
+
+  .card-content {
+    margin-bottom: 35px;
+  }
+
+  .footer_heading {
+    text-align: center;
+    margin: 25px auto 0;
+  }
+
+  .line-with-love,
+  .copyright {
+    text-align: center;
+  }
+}
+
+
+
+@media (max-device-width: 576px) {
+
+  .bowtie-lips-banner {
+    max-height: 360px;
+  }
+
+  div.ie-container,
+  div.ie-container-2 {
+    top: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #second,
+  #third {
+    text-align: center;
+  }
+
+  div.ie-container:before,
+  div.ie-container-2:before {
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .featured-sec {
+    background-color: #fbf8f0;
+    padding: 40px 0 50px 0;
+    margin-bottom: 0;
+
+  }
+
+  ul.featured-list li {
+    margin: 10px auto 0 !important;
+  }
+
+  ul.featured-list li a {
+    font-size: 16px;
+  }
+
+  ul.social-networks li.call-pan a span {
+    display: none;
+  }
+
+  ul.social-networks li.call-pan .fa {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+  }
+
+  ul.social-networks li.call-pan {
+    width: 40px;
+  }
+
+  .book_an_appointment a {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .banner_info h1 span {
+    font-size: 22px;
+  }
+
+  .banner_info h1 {
+    font-size: 30px;
+  }
+
+  ul.social-networks li {
+    margin: 0 5px;
+  }
+}
+
